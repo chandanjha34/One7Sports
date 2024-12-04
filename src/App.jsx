@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-      
+      <div>
+        I am the ming
+      </div>
     </>
   )
 }
