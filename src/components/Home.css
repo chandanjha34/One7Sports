@@ -1,0 +1,51 @@
+.backGround-Pics{
+    background-image: url("../assets//Home_assets/bg.png");
+    background-size: cover;
+    width: 94vw;
+    height: 94vh;
+    position: relative;
+    right:3vw;
+    left: 3vw;
+    top: 3vh;
+    bottom: 3vh;
+    border-radius: 1rem;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    position: relative;
+    top: 6vh;
+    color: white;
+}
+.logo{
+    width: 15vw;
+}
+.content-item{
+    gap: 5vw;
+    font-size: small;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    gap: 2vh;
+    position: relative;
+    padding-left: 4vw;
+}
+.main-section{
+    position: relative;
+    top: 5vw;
+}
+.button-edit{
+    background-color: white;
+    width: fit-content;
+}
+.button-edit:hover{
+    color: blue;
+}
