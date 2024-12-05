@@ -10,10 +10,10 @@ import face5 from '../assets/Home_assets/face5.png'
 
 function Home() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#000000]">
+    <div className="relative h-screen w-screen overflow-hidden bg-white">
       {/* Navbar */}
     <div className="backGround-Pics flex justify-between">  
-      <header className="w-full fixed top-0 bg-black bg-opacity-50 z-50">
+      <header className="w-full fixed top-0 bg-opacity-50 z-50">
         <nav className="nav-bar">
           <div className="flex items-center">
             <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
@@ -28,7 +28,7 @@ function Home() {
               </li>
             ))}
           </ul>
-          <button className="bg-transparent border-2 border-white-400 hover:bg-yellow-300 hover:text-[#000000] px-4 py-2 rounded-md ">
+          <button className="bg-transparent border-2 border-white-400 hover:bg-yellow-300 hover:text-[#000000]n px-4 py-2 rounded-md ">
             Contact Us
           </button>
         </nav>
