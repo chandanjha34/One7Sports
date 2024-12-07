@@ -13,8 +13,8 @@ function Home() {
     <div className="relative h-screen w-screen overflow-hidden bg-white">
       {/* Navbar */}
     <div className="backGround-Pics flex justify-between">  
-      <header className="w-full fixed top-0 bg-opacity-50 z-50">
-        <nav className="nav-bar">
+      <header className="w-full fixed top-0  z-50">
+        <nav className="nav-bar bg-opacity-50 bg-black">
           <div className="flex items-center">
             <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
           </div>

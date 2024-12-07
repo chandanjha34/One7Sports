@@ -21,6 +21,7 @@
     position: relative;
     top: 6vh;
     color: white;
+    border-radius: 1rem;
 }
 .logo{
     width: 15vw;
@@ -34,7 +35,7 @@
     display: flex;
     width: 50vw;
     flex-direction: column;
-    gap: 2vh;
+    gap: 1/2vh;
     position: relative;
     padding-left: 4vw;
 }
