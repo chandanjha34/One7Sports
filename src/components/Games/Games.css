@@ -1,0 +1,29 @@
+.whole-section{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+.text-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.first-text{
+    font-size:4rem;
+    line-height:4rem;
+    font-weight:700;
+}
+.second-text{
+    font-size:large;
+
+}
+.image1{
+    width: 90vw;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

@@ -10,7 +10,7 @@ import face5 from '../assets/Home_assets/face5.png'
 
 function Home() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-white">
+    <div className="relative h-screen max-w-screen overflow-scroll bg-white HOME">
       {/* Navbar */}
     <div className="backGround-Pics flex justify-between">  
       <header className="w-full fixed top-0  z-50">

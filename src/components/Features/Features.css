@@ -1,17 +1,16 @@
-/* General Styles for Feature Cards */
 .box{
     display: flex;
     flex-direction: column;
     padding-bottom: 1rem;
     padding-top: 1rem;
     padding-right: 1rem;
+    padding-left: 1rem;
     width: 90%;
     position: relative;
     left: 1rem;
     right: 1rem;
     border: 2px solid gray;
     border-radius: 1rem;
-    padding-left: 1rem;
 } 
 
 @media (min-width:640px) {
