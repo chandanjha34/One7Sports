@@ -27,3 +27,26 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.image2{
+    width: 45vw;
+    height:70vw;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (min-width:768px) {
+    .image1{
+        width: 30vw;
+        margin: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .image2{
+        width: 15vw;
+        height: 50vw;
+        height:fit-content;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
