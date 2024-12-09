@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/Home_assets/logo.png";
-import heroImage from "../assets/Home_assets/bg.svg";
 import '../components/Home.css'
 import face1 from '../assets/Home_assets/face1.png'
 import face2 from '../assets/Home_assets/face2.png'
@@ -10,7 +9,7 @@ import face5 from '../assets/Home_assets/face5.png'
 
 function Home() {
   return (
-    <div className="relative h-screen max-w-screen overflow-scroll bg-white HOME">
+    <div className="h-screen max-w-screen overflow-hidden bg-white">
       {/* Navbar */}
     <div className="backGround-Pics flex justify-between">  
       <header className="w-full fixed top-0  z-50">
@@ -28,7 +27,7 @@ function Home() {
               </li>
             ))}
           </ul>
-          <button className="bg-transparent border-2 border-white-400 hover:bg-yellow-300 hover:text-[#000000]n px-4 py-2 rounded-md ">
+          <button className="button-fix bg-transparent border-2 border-white-400 hover:bg-yellow-300 hover:text-[#000000]n px-4 py-2 rounded-md ">
             Contact Us
           </button>
         </nav>

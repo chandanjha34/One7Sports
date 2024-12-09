@@ -1,5 +1,5 @@
 .backGround-Pics{
-    background-image: url("../assets//Home_assets/bg.png");
+    background-image: url("../assets/Home_assets/bg.png");
     background-size: cover;
     width: 94vw;
     height: 94vh;
@@ -10,7 +10,9 @@
     bottom: 3vh;
     border-radius: 1rem;
 }
-
+.button-fix{
+    width: 10rem;
+}
 .nav-bar{
     display: flex;
     align-items: center;

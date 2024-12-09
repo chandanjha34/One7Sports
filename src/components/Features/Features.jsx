@@ -6,12 +6,14 @@ import feature3 from '../../assets/Features_assets/feature3.png'
 
 const FeatureSection = () => {
   return (
-    <div max-w-screen overflow-hidden h-screen>
-      <div className='text-center text-[#5FBC1E]'>
-        <p>PLATFORM FEATURES</p>
-      </div>
-      <div className='text-center scale-[200%]'>
-        <p>One Platform-Multiple Sports</p>
+    <div max-w-screen overflow-hidden w-screen h-screen>
+      <div className='md:translate-y-[4vw]'>
+        <div className=' text-center text-[#5FBC1E]'>
+          <p>PLATFORM FEATURES</p>
+        </div>
+        <div className='text-center'>
+          <p className='text-5xl'>One Platform-Multiple Sports</p>
+        </div>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 boxes '>
         <div className='grid grid-cols-3  box'>
