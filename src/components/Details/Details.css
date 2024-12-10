@@ -2,8 +2,6 @@
 .stats-container {
     max-width: 80%;
     margin: auto;
-    border-top: 1px solid #e5e7eb;
-    border-bottom: 1px solid #e5e7eb;
   }
   
   .stat-item {
@@ -12,5 +10,13 @@
   
   .stat-item:hover {
     transform: scale(1.1);
+  }
+  
+  .stat-number {
+    font-variant-numeric: tabular-nums;
+     /* Makes number animations smoother */
+  }
+  .stat-number {
+    transition: font-size 0.5s ease-in-out;
   }
   
