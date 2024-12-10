@@ -187,7 +187,7 @@ const EventsPage = () => {
             </div>
 
             {/* Event Details */}
-            <div className="flex flex-col text-center flex-grow  md:w-[30vw]">
+            <div className="flex flex-col text-center md:text-start flex-grow  md:w-[30vw]">
               <h3 className="text-2xl md:text-lg font-bold text-gray-700">{event.title}</h3>
               <p className="text-sm text-gray-500">{event.description}</p>
               <div className="text-sm text-gray-400 mt-2 flex items-center">
