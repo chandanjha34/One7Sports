@@ -6,6 +6,7 @@ import Games from './components/Games/Games'
 import Details from './components/Details/Details'
 import About from './components/About/About'
 import Services from './components/Services/Services'
+import Events from './components/Events/Events'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Details/>
       <About/>
       <Services/>
+      <Events/>
     </>
   )
 }
