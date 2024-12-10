@@ -9,7 +9,7 @@ import face5 from '../assets/Home_assets/face5.png'
 
 function Home() {
   return (
-    <div className="h-screen max-w-screen overflow-hidden bg-white">
+    <div className="h-screen w-full overflow-hidden bg-white flex justify-center">
       {/* Navbar */}
     <div className="backGround-Pics flex justify-between">  
       <header className="w-full fixed top-0  z-50">
@@ -37,16 +37,16 @@ function Home() {
       <section className="main-section absolute top-0 h-full flex items-center">
         <div className=" mx-auto px-6 md:px-12 ">
           {/* Left Section: Hero Text */}
-          <div className="main-content md:w-1/2 text-center md:text-left md:space-y-4 ">
-            <h1 className="text-4xl md:text-6xl font-semibold leading-tight text-white ">
+          <div className="main-content h-full md:w-1/2 text-start  md:text-left md:space-y-4 ">
+            <div className="text-4xl md:text-6xl font-semibold leading-tight text-white ">
               Play your <span className="text-yellow-400">Game</span>, <br />
               Find your <span className="text-yellow-400">Ground</span>!
-            </h1>
-            <p className="text-lg text-gray-300">
+            </div>
+            <div className="text-lg text-gray-300">
               Welcome to One7Sports. Your new companion for all sports and games.
               Get grounds for cheaper prices. Get personalized tournament suggestions.
-            </p>
-            <div className="flex items-center space-x-4">
+            </div>
+            <div className="flex flex-col md:flex-row gap-[1rem] md:items-center space-x-4">
               <div className="flex -space-x-2 ">
                 <img
                   src={face1}

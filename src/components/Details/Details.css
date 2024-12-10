@@ -1,0 +1,16 @@
+/* Stats.css */
+.stats-container {
+    max-width: 80%;
+    margin: auto;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .stat-item {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .stat-item:hover {
+    transform: scale(1.1);
+  }
+  

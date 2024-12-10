@@ -6,7 +6,7 @@ import feature3 from '../../assets/Features_assets/feature3.png'
 
 const FeatureSection = () => {
   return (
-    <div max-w-screen overflow-hidden w-screen h-screen>
+    <div className='max-w-screen overflow-hidden w-screen h-auto flex flex-col gap-[2rem]'>
       <div className='md:translate-y-[4vw]'>
         <div className=' text-center text-[#5FBC1E]'>
           <p>PLATFORM FEATURES</p>

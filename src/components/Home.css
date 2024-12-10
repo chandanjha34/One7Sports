@@ -4,8 +4,8 @@
     width: 94vw;
     height: 94vh;
     position: relative;
-    right:3vw;
-    left: 3vw;
+    right:2vw;
+    left: 2vw;
     top: 3vh;
     bottom: 3vh;
     border-radius: 1rem;
@@ -52,4 +52,13 @@
 }
 .button-edit:hover{
     color: blue;
+}
+@media (max-width:768px) {
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        width: 80vw; 
+    }
+   
 }

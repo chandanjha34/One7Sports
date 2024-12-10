@@ -29,35 +29,35 @@ function Games () {
             Our sports campus offers games and activities for all ages and skill levels. Whether you're improving skills, staying fit, or seeking friendly competition, we have something for everyone—team sports like soccer and basketball or individual challenges like tennis and track.
             </div>
         </div>
-        <div className='flex flex-col overflow-y-visible h-auto md:items-center md:justify-center md:flex-row gap-[2em]'>
-            <div className='image1 bg-white rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col gap-[1rem] md:gap-0 overflow-hidden transform transition-all duration-200 active:scale-[110%] active:shadow-none md:hover:scale-[110%] md:hover:shadow-none' >
+        <div className='main-game flex flex-col overflow-y-visible h-auto md:flex-row gap-[2em]'>
+            <div className='image1 bg-white rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col gap-[1rem] md:gap-0 overflow-hidden transform transition-all duration-200 active:scale-[110%] active:shadow-none scale-animation md:hover:shadow-none' >
                     <div className='py-[1rem]'>
-                        <img className='absolute w-[6vw] bg-[#1C66EE] border-2 border-black rounded-full' src={reDirect1} alt="" />
+                        <img className='absolute w-[6vw] md:w-[3vw] bg-[#1C66EE] border-2 border-black rounded-full' src={reDirect1} alt="" />
                         <img className='' src={game1} alt="" />
                     </div>
                     <p className='text-2xl font-bold'>Basketball</p>
                     <p className='text-md '>our campus is perfect for players of all skill levels, offering a fun and competitive environment.</p>
             </div>
-            <div className='flex flex-wrap text-white '>
-                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none  md:hover:scale-[110%] md:hover:shadow-none' onMouseDown={() => changeImage2(upArrow)} onMouseUp={() => changeImage2(downArrow)} >
+            <div className='flex flex-wrap text-white justify-center '>
+                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none scale-animation md:hover:shadow-none' onMouseDown={() => changeImage2(upArrow)} onMouseUp={() => changeImage2(downArrow)} >
                     <img className='rounded-xl w-full h-full' src={game2} alt="" />
-                    <img className='absolute w-[6vw] bg-white border-2 border-black rounded-full' src={reDirect2} alt="" />
-                    <p   className='game-text absolute rotate-[270deg] bottom-[2rem] left-[1rem]' >TABLE TENNIS</p>
+                    <img className='absolute w-[6vw] md:w-[3vw] bg-white border-2 border-black rounded-full' src={reDirect2} alt="" />
+                    <p   className='game-text absolute rotate-[270deg]' >TABLE TENNIS</p>
                 </div>
-                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none  md:hover:scale-[110%] md:hover:shadow-none' onMouseDown={() => changeImage2(upArrow)} onMouseUp={() => changeImage2(downArrow)} >
+                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none scale-animation md:hover:shadow-none' onMouseDown={() => changeImage3(upArrow)} onMouseUp={() => changeImage3(downArrow)} >
                     <img className='rounded-xl w-full h-full' src={game3} alt="" />
-                    <img className='absolute w-[6vw] bg-white border-2 border-black rounded-full' src={reDirect3} alt="" />
-                    <p   className='game-text absolute rotate-[270deg] bottom-[2rem] left-[1rem]' >BADMINTON</p>
+                    <img className='absolute w-[6vw] md:w-[3vw] bg-white border-2 border-black rounded-full' src={reDirect3} alt="" />
+                    <p   className='game-text absolute rotate-[270deg]' >BADMINTON</p>
                 </div>
-                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none  md:hover:scale-[110%] md:hover:shadow-none' onMouseDown={() => changeImage4(upArrow)} onMouseUp={() => changeImage4(downArrow)} >
+                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none scale-animation md:hover:shadow-none' onMouseDown={() => changeImage4(upArrow)} onMouseUp={() => changeImage4(downArrow)} >
                     <img className='rounded-xl w-full h-full' src={game4} alt="" />
-                    <img className='absolute w-[6vw] bg-white border-2 border-black rounded-full' src={reDirect4} alt="" />
-                    <p   className='game-text absolute rotate-[270deg]  bottom-[2rem] left-[1rem]' >TENNIS</p>
+                    <img className='absolute w-[6vw] md:w-[3vw] bg-white border-2 border-black rounded-full' src={reDirect4} alt="" />
+                    <p   className='game-text absolute rotate-[270deg] ' >TENNIS</p>
                 </div>
-                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none  md:hover:scale-[110%] md:hover:shadow-none' onMouseDown={() => changeImage5(upArrow)} onMouseUp={() => changeImage5(downArrow)} >
+                <div className='image2 rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col transform transition-all duration-200 active:scale-[110%] active:shadow-none  scale-animation md:hover:shadow-none' onMouseDown={() => changeImage5(upArrow)} onMouseUp={() => changeImage5(downArrow)} >
                     <img className='rounded-xl w-full h-full' src={game5} alt="" />
-                    <img className='absolute w-[6vw] bg-white border-2 border-black rounded-full' src={reDirect5} alt="" />
-                    <p   className='game-text absolute rotate-[270deg] bottom-[2rem] left-[1rem]' >CRICKET</p>
+                    <img className='absolute w-[6vw] md:w-[3vw] bg-white border-2 border-black rounded-full' src={reDirect5} alt="" />
+                    <p   className='game-text absolute rotate-[270deg]' >CRICKET</p>
                 </div>
             </div>
         </div>

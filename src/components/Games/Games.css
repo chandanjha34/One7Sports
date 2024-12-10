@@ -62,4 +62,7 @@
         left: -9vh;
         transform: rotate(270deg);
     }
+    .scale-animation:hover{
+        scale: 105%;
+    }
 }
