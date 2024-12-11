@@ -154,7 +154,7 @@ const EventsPage = () => {
   )?.events;
 
   return (
-    <div className="bg-white min-h-screen p-6 relative top-[4rem]">
+    <div className="bg-white min-h-screen p-6">
       {/* Tabs */}
       <div className="flex justify-center space-x-1 mb-8 event-list">
         {eventsData.map((category) => (
