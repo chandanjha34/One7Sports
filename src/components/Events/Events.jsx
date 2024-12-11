@@ -156,12 +156,12 @@ const EventsPage = () => {
   return (
     <div className="bg-white min-h-screen p-6 relative top-[4rem]">
       {/* Tabs */}
-      <div className="flex justify-center space-x-4 mb-8">
+      <div className="flex justify-center space-x-1 mb-8 event-list">
         {eventsData.map((category) => (
           <button
             key={category.category}
             onClick={() => setActiveCategory(category.category)}
-            className={`px-6 py-2 text-sm font-medium ${
+            className={`px-4 py-2 text-sm font-medium ${
               activeCategory === category.category
                 ? "bg-[#F59431] text-black"
                 : "bg-gray-200 text-gray-600"

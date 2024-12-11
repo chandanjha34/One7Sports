@@ -3,7 +3,7 @@ import about from '../../assets/About_assets/about.png'
 import './About.css'
 function About(){
   return (
-    <div className='flex flex-col md:flex-row w-screen h-auto md:h-screen md:gap-[10vw] p-6'>
+    <div className='flex flex-col md:flex-row w-screen h-full md:h-screen md:gap-[10vw] p-6'>
         <div className='about-parts'>
             <img src={about} alt="" />
         </div>

@@ -28,5 +28,6 @@
 @media (max-width:768px) {
   .about-parts{
     max-width: 100%;
+    height: auto;
   }
 }
