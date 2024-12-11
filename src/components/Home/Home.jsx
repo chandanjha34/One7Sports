@@ -9,10 +9,10 @@ import face5 from '../../assets/Home_assets/face5.png'
 
 function Home() {
   return (
-    <div className="h-screen container bg-white flex justify-center">
+    <div className="h-screen bg-white max-w-[100vw] overflow-hidden">
       {/* Navbar */}
     <div className="backGround-Pics flex justify-between">  
-      <header className="w-full fixed top-0  z-50">
+      <header className="fixed top-0  z-50">
         <nav className="nav-bar bg-opacity-50 bg-black">
           <div className="flex items-center">
             <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
@@ -34,7 +34,7 @@ function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="main-section absolute top-0 h-full flex items-center">
+      <section className="main-section top-0 h-full flex items-center">
         <div className=" mx-auto px-6 md:px-12 ">
           {/* Left Section: Hero Text */}
           <div className="main-content h-full md:w-1/2 text-start  md:text-left md:space-y-4 ">

@@ -154,7 +154,7 @@ const EventsPage = () => {
   )?.events;
 
   return (
-    <div className="bg-gray-100 min-h-screen p-6 relative top-[4rem]">
+    <div className="bg-white min-h-screen p-6 relative top-[4rem]">
       {/* Tabs */}
       <div className="flex justify-center space-x-4 mb-8">
         {eventsData.map((category) => (
@@ -177,7 +177,7 @@ const EventsPage = () => {
         {activeEvents?.map((event, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-md p-6 flex flex-col md:flex-row items-start items-center space-y-4 md:space-y-0 md:space-x-6"
+            className="bg-white rounded-lg shadow-xl p-6 flex flex-col md:flex-row items-start items-center space-y-4 md:space-y-0 md:space-x-6"
           >
             {/* Date Box */}
             <div className="bg-blue-100 text-center p-4 rounded-lg border border-black md:p-[3rem] ">

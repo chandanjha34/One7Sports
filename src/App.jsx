@@ -7,7 +7,7 @@ import Details from './components/Details/Details'
 import About from './components/About/About'
 import Services from './components/Services/Services'
 import Events from './components/Events/Events'
-
+import Reviews from './components/Reviews/Reviews'
 function App() {
 
   return (
@@ -19,6 +19,7 @@ function App() {
       <About/>
       <Services/>
       <Events/>
+      <Reviews/>
     </>
   )
 }
