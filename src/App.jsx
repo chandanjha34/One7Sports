@@ -9,6 +9,8 @@ import Services from './components/Services/Services'
 import Events from './components/Events/Events'
 import Reviews from './components/Reviews/Reviews'
 import Downloads from './components/Downloads/Downloads'
+import Gallery from './components/Gallery/Gallery'
+import Footer from './components/Footer/Footer'
 function App() {
 
   return (
@@ -22,6 +24,8 @@ function App() {
       <Events/>
       <Reviews/>
       <Downloads/>
+      <Gallery/>
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,37 @@
+.setImage {
+    width: 25vw;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .setCentre {
+    width: 50vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+.center-image{
+    height: 15vw;
+    width: 30vw;
+}
+.centre{
+    height: 10vw;
+    width: 30vw;
+}
+  @media (max-width: 768px) {
+    .setImage {
+      width: 100%;
+    }
+  
+    .setCentre {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
