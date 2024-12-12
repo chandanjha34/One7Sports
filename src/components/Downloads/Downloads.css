@@ -1,0 +1,41 @@
+
+.custom-radial {
+    background: radial-gradient(circle, #4f46e5, #7c3aed);
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    border-radius: 2rem;
+  }
+  .images{
+    position: relative;
+    top: 20vw;
+    left: -1vw;
+    gap: 0;
+    scale: 240%;
+  }
+.image-2{
+    left: -6vw;
+
+}
+.text-edit{
+    margin-top: 3rem;
+}
+.button-edit{
+    display: flex;
+    width: fit-content;
+    background: #F59431;
+    border: #F59431 1px;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 0.3rem;
+}
+.button-edit:hover{
+    color: black;
+    cursor: pointer;
+}
