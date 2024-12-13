@@ -1,68 +1,82 @@
-.whole-section{
+.whole-section {
     max-width: 98vw;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 1rem;
     gap: 1rem;
 }
-.text-section{
+
+.text-section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.first-text{
-    font-size:4rem;
-    line-height:4rem;
-    font-weight:700;
-}
-.second-text{
-    font-size:large;
 
+.first-text {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
 }
-.image1{
-    width: 90vw;
-    margin: auto;
+
+.second-text {
+    font-size: large;
+}
+
+.main-game {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 95vw;
+    justify-content: center;
+}
+
+.image1,
+.image2 {
+    height: 50vh; /* Consistent height for all images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.image1 {
+    width: 25vw; /* Fixed width for the first image */
+    flex-shrink: 0; /* Prevent resizing */
+    height:fit-content;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 1rem; /* Keep consistent height */
 }
-.image2{
-    width: 45vw;
-    height:70vw;
+
+.image2 {
+    flex-grow: 1; /* Let other images grow to fill remaining space */
+    width: calc((75vw - 25vw) / 4); /* Divide remaining width among other images */
+    max-width: calc((80vw - 25vw) / 4); /* Ensure consistent width */
     margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
-.game-text{
+
+.game-text {
+    width: full;
+    height: full;
+    font-size:larger;
     position: relative;
-    bottom: 6rem;
+    top: -8rem;
     left: -4rem;
     transform: rotate(270deg);
 }
-.main-game{
-    max-width: 95vw;
-}
-@media (min-width:768px) {
-    .image1{
-        width: 30vw;
-        margin: auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
+
+@media (min-width: 768px) {
+    .image1 {
+        width: 25vw; /* Keep width fixed for image1 */
     }
-    .image2{
-        width: 15vw;
-        height: 58vh;
-        margin-bottom: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+
+    .image2 {
+        width: calc((95vw - 25vw) / 3); /* Adjust based on remaining space */
+        height: 50vh; /* Keep consistent height */
     }
-    .game-text{
+
+    .game-text {
         position: relative;
         bottom: 18vh;
         left: -9vh;
         transform: rotate(270deg);
     }
-    .scale-animation:hover{
+
+    .scale-animation:hover {
         scale: 105%;
     }
 }

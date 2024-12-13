@@ -34,4 +34,7 @@
       height: auto;
     }
   }
-  
+.Gallery-Page{
+  position: relative;
+  z-index: 1000;
+}

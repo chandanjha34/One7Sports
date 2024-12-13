@@ -10,12 +10,12 @@ import image7 from '../../assets/Gallery_assets/image7.jpg';
 
 function Gallery() {
   return (
-    <div className="bg-gray-50 p-8">
+    <div className="relative bg-gray-50 p-8">
       <h2 className="text-center text-md text-[#5FBC1E] mb-4">Gallery</h2>
       <p className="text-center text-4xl mb-8">
         Explore Our Gallery and Various Courts
       </p>
-      <div className="flex flex-row justify-center gap-4">
+      <div className="flex flex-row justify-center gap-4  Gallery-Page">
         {/* Left Column */}
         <div className="flex flex-col ">
           <div className="setImage shadow-lg">

@@ -8,8 +8,8 @@ import image4 from '../../assets/Footer_assets/img4.png'
 
 const Footer = () => {
     return (
-        <footer className=" bg-blue-500 whole text-white  flex flex-col items-center">
-            <div className='foot flex flex-col items-center py-4 gap-2'>
+        <footer className=" bg-blue-500 wholes text-white  flex flex-col items-center">
+            <div className='foot flex flex-col items-center  gap-2'>
                 <div><img src={logo} alt="" /></div>
                 <div className='text-2xl'>Join our community </div>
                 <div>Subscribe for exclusive updates and be part of the action!</div>

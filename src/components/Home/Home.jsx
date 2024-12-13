@@ -9,7 +9,7 @@ import face5 from '../../assets/Home_assets/face5.png'
 
 function Home() {
   return (
-    <div className="h-screen bg-white max-w-[100vw] overflow-hidden">
+    <div className="Home-Page h-screen bg-white max-w-[100vw] overflow-hidden">
       {/* Navbar */}
     <div className="backGround-Pics flex justify-between">  
       <header className="fixed top-0  z-50">
@@ -18,7 +18,7 @@ function Home() {
             <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
           </div>
           <ul className="hidden md:flex content-item text-white ">
-            {["Home", "About", "Services", "Events"].map((item) => (
+            {["Home", "About", "Services", "Events","Franchise"].map((item) => (
               <li
                 key={item}
                 className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer"
@@ -27,7 +27,7 @@ function Home() {
               </li>
             ))}
           </ul>
-          <button className="button-fix bg-transparent border-2 border-white-400 hover:bg-yellow-300 hover:text-[#000000]n px-4 py-2 rounded-md ">
+          <button className="button-fix bg-transparent border-2 border-white-400 hover:bg-red-100 hover:text-black px-4 py-2 rounded-md ">
             Contact Us
           </button>
         </nav>

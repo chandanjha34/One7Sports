@@ -1,3 +1,7 @@
+.Home-Page{
+    position: relative;
+    z-index: 1000000000;
+}
 .backGround-Pics{
     background-image: url("../../assets/Home_assets/bg.png");
     background-size: cover;

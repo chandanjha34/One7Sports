@@ -1,6 +1,8 @@
-.foot{
-    padding-top: 30vh;
-}
-.whole{
-    transform: translateY(-20vw);
+
+.wholes{
+    position: relative;
+    z-index: 100;
+    
+    width: 100vw;
+    overflow: hidden;
 }

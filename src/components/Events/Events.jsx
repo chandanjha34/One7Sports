@@ -188,14 +188,18 @@ const EventsPage = () => {
 
             {/* Event Details */}
             <div className="flex flex-col containers flex-grow  md:w-[30vw]">
-              <h3 className="text-2xl md:text-lg font-bold text-gray-700">{event.title}</h3>
+              <h3 className="text-2xl md:text-xl font-bold text-gray-700">{event.title}</h3>
               <p className="text-sm text-gray-500">{event.description}</p>
               <div className="text-sm text-gray-400 mt-2 flex items-center">
                 <span className="material-icons text-blue-400 mr-1">
                   location : 
                 </span>
                 {event.location}
+                
               </div>
+              <button className="w-fit bg-orange-500 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-orange-600 transition duration-200">
+              Know More
+              </button>
             </div>
 
             {/* Event Image */}
@@ -208,9 +212,6 @@ const EventsPage = () => {
             </div>
 
             {/* CTA Button */}
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-orange-600 transition duration-200">
-              Know More
-            </button>
           </div>
         ))}
       </div>
