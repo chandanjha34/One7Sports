@@ -4,6 +4,7 @@
     margin: 10px;
     border-radius: 12px;
     overflow: hidden;
+    object-fit:fill;
   }
   
   .setCentre {

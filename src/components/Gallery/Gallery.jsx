@@ -1,12 +1,12 @@
 import React from 'react';
 import './Gallery.css';
-import image1 from '../../assets/Gallery_assets/image1.jpg';
-import image2 from '../../assets/Gallery_assets/image2.jpg';
-import image3 from '../../assets/Gallery_assets/image3.jpg';
+import image1 from '../../assets/Gallery_assets/image1.png';
+import image2 from '../../assets/Gallery_assets/image2.png';
+import image3 from '../../assets/Gallery_assets/image3.png';
 import image4 from '../../assets/Gallery_assets/image4.png';
-import image5 from '../../assets/Gallery_assets/image5.jpg';
-import image6 from '../../assets/Gallery_assets/image6.jpg';
-import image7 from '../../assets/Gallery_assets/image7.jpg';
+import image5 from '../../assets/Gallery_assets/image5.png';
+import image6 from '../../assets/Gallery_assets/image6.png';
+import image7 from '../../assets/Gallery_assets/image7.png';
 
 function Gallery() {
   return (

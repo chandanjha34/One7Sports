@@ -4,7 +4,7 @@ import apple from '../../assets/Downloads_assets/apple.png'
 import playStore from '../../assets/Downloads_assets/play-store.png'
 import demo1 from '../../assets/Downloads_assets/demo1.png'
 import demo2 from '../../assets/Downloads_assets/demo2.png'
-import QR from '../../assets/Downloads_assets/QR.png'
+import QR from '../../assets/Downloads_assets/qr.png'
 
 function Downloads(){
 
