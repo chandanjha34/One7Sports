@@ -1,0 +1,35 @@
+.section{
+    width: 50vw;
+}
+.text-section{
+    gap: 0.5rem;
+}
+.img1{
+    width: 25vw;
+    height: 60vh;
+    object-fit:fill;
+    position: relative;
+    top: 5rem;
+    left: 6rem;
+}
+.img2{
+    width: 20vw;
+    position: relative;
+    top: -3rem;
+    left: 15rem;
+}
+@media (max-width:640px) {
+    .img1{
+        width: 13rem;
+        left: 1rem;
+    }
+    .img2{
+        width: 13rem;
+        left: 9rem;
+        top: -2rem;
+    }
+    .section{
+        width: 90vw;
+
+    }
+}

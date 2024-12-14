@@ -1,0 +1,12 @@
+.aboutSection{
+    background-image: url(../../assets/AboutPage_assets/backgroundImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 80vh;
+    color: white;
+}
+@media (max-width:768px) {
+    
+}
