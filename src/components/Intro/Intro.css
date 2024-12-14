@@ -1,4 +1,4 @@
-.section{
+.section1,.section2{
     width: 50vw;
 }
 .text-section{
@@ -18,7 +18,7 @@
     top: -3rem;
     left: 15rem;
 }
-@media (max-width:640px) {
+@media (max-width:639px) {
     .img1{
         width: 13rem;
         left: 1rem;
@@ -26,10 +26,26 @@
     .img2{
         width: 13rem;
         left: 9rem;
-        top: -2rem;
+        top: -20rem;
     }
-    .section{
+    .section1{
         width: 90vw;
-
+        height:50vh;
+    }
+    .section2{
+        width: 90vw;
+        height: auto;
+    }
+}
+@media (min-width:640px) and (max-width:1024px) {
+    .img1{
+        width: 25vw;
+        height: 40vh;
+        left: 4rem;
+    }
+    .img2{
+        width: 20vw;
+        left: 9rem;
+        top: -10rem;
     }
 }

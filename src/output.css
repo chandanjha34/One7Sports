@@ -1007,6 +1007,22 @@ video {
   padding: 2rem;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-\[1rem\] {
+  padding: 1rem;
+}
+
+.p-\[4rem\] {
+  padding: 4rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1360,6 +1376,10 @@ video {
     padding: 3rem;
   }
 
+  .md\:p-\[1rem\] {
+    padding: 1rem;
+  }
+
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1452,5 +1472,11 @@ video {
 
   .lg\:font-semibold {
     font-weight: 600;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:p-\[5rem\] {
+    padding: 5rem;
   }
 }

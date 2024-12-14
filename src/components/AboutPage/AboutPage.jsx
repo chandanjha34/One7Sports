@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './AboutPage.css'
 import Intro from '../Intro/Intro'
-
+import Description from '../AboutOne7/AboutOne7'
+import Grounds from '../AboutGrounds/AboutGrounds'
 
 function AboutPage () {
   return (
@@ -16,6 +17,8 @@ function AboutPage () {
         </div>
       </div>
       <Intro/>
+      <Description/>
+      <Grounds/>
     </div>
   );
 }
