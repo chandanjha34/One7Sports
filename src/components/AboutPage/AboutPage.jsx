@@ -4,6 +4,14 @@ import './AboutPage.css'
 import Intro from '../Intro/Intro'
 import Description from '../AboutOne7/AboutOne7'
 import Grounds from '../AboutGrounds/AboutGrounds'
+import Sports from '../sportsManagement/Sports'
+import Technical from '../technicalPage/Technical'
+import Offers from '../Offers/Offers'
+import Impact from '../Impact/Impact'
+import Why from '../Why/Why'
+import Founder from '../Founders/Founder'
+import Booking from '../Booking/Booking'
+import Footer from '../Footer/Footer'
 
 function AboutPage () {
   return (
@@ -19,6 +27,14 @@ function AboutPage () {
       <Intro/>
       <Description/>
       <Grounds/>
+      <Sports/>
+      <Technical/>
+      <Offers/>
+      <Impact/>
+      <Why/>
+      <Founder/>
+      <Booking/>
+      <Footer/>
     </div>
   );
 }

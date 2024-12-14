@@ -14,8 +14,8 @@ const Footer = () => {
                 <div className='text-2xl'>Join our community </div>
                 <div>Subscribe for exclusive updates and be part of the action!</div>
                 <div className='flex gap-4'>
-                    <button className='border w-[17vw] text-sm p-3'>Provide your Gmail</button>
-                    <button className='border w-[8vw] text-sm  p-3'>SUBMIT</button>
+                    <button className='border w-fit lg:w-[17vw] text-sm p-3'>Provide your Gmail</button>
+                    <button className='border w-fit lg:w-[8vw] text-sm  p-3'>SUBMIT</button>
                 </div>
                 <div className='flex gap-3'>
                     <span><a href="#"><img src={image1} alt="" /></a></span>

@@ -10,7 +10,7 @@ import image7 from '../../assets/Gallery_assets/image7.png';
 
 function Gallery() {
   return (
-    <div className="relative bg-gray-50 p-8">
+    <div className="relative bg-gray-50 p-8 hidden lg:block">
       <h2 className="text-center text-md text-[#5FBC1E] mb-4">Gallery</h2>
       <p className="text-center text-4xl mb-8">
         Explore Our Gallery and Various Courts

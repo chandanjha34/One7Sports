@@ -1,0 +1,20 @@
+.sidePart{
+    width: 35vw;
+    height: 30vw;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.basket{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width:767px) {
+    .sidePart{
+        width: 45vw;
+    }
+    .basket{
+        width: 90vw;
+    }
+}

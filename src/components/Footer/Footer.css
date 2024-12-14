@@ -2,7 +2,6 @@
 .wholes{
     position: relative;
     z-index: 100;
-    
     width: 100vw;
     overflow: hidden;
 }

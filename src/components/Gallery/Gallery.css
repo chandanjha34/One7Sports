@@ -25,16 +25,7 @@
     height: 10vw;
     width: 30vw;
 }
-  @media (max-width: 768px) {
-    .setImage {
-      width: 100%;
-    }
-  
-    .setCentre {
-      width: 100%;
-      height: auto;
-    }
-  }
+
 .Gallery-Page{
   position: relative;
   z-index: 1000;

@@ -2,8 +2,52 @@
     width: 90vw;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
 }
 .part{
     width: 40vw;
+}
+.image6{
+    height: 40vh;
+    width: 40vw;
+    border-radius: 2rem;
+}
+.image7{
+    height: 90vh;
+    border-radius: 2rem;
+}
+.bullet-item {
+    position: relative;
+    padding-left: 20px; /* Space for the bullet */
+  }
+  
+.bullet-item::before {
+    content: '•'; /* Unicode for a bullet */
+    position: absolute;
+    left: 0;
+    top: -0.4rem; /* Position the bullet to the left of the text */
+    color: black; /* Bullet color (blue) */
+    font-size: 1.5rem; /* Adjust bullet size */
+  }
+@media (max-width:639px) {
+    .intro-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .part{
+        width: 90vw;
+    }
+    .image6, .image7{
+        width: 90vw;
+    }
+    .image7{
+        height: 50vh;
+    }
+}
+@media (min-width:640px) and (max-width:768px) {
+    .image7{
+        height: 70vh;
+    }
 }
