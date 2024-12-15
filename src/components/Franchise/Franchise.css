@@ -1,0 +1,72 @@
+.Home-Page{
+    position: relative;
+    z-index: 1000000000;
+}
+.backGround-Pics{
+    background-image: url("../../assets/Home_assets/bg.png");
+    background-size: cover;
+    width: 94vw;
+    height: 94vh;
+    position: relative;
+    right:2vw;
+    left: 2vw;
+    top: 3vh;
+    bottom: 3vh;
+    border-radius: 1rem;
+}
+.button-fix{
+    width: 10rem;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94vw;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    position: relative;
+    top: 6vh;
+    color: white;
+    border-radius: 1rem;
+}
+.logo{
+    width: 15vw;
+}
+.content-item{
+    gap: 5vw;
+    font-size: small;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    gap: 1/2vh;
+    position: relative;
+    bottom: 1rem;
+
+}
+.main-section{
+    position: relative;
+    top: 30vh;
+    right: 3rem;
+    bottom: 1rem;
+}
+.button-edit{
+    background-color: white;
+    width: fit-content;
+    font-size: larger;
+}
+.button-edit:hover{
+    color: blue;
+}
+@media (max-width:768px) {
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        width: 80vw; 
+    }
+   
+}

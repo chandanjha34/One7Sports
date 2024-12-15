@@ -28,7 +28,7 @@ function Navbar(){
               ))}
             </ul>
             <button className="button-fix bg-transparent border-2 border-white-400 hover:bg-red-100 hover:text-black px-4 py-2 rounded-md ">
-              Contact Us
+              <Link to='/contact'>Contact Us</Link>
             </button>
           </nav>
         </header>

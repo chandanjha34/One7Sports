@@ -6,6 +6,7 @@ import About from './components/AboutPage/AboutPage'
 import Events from './components/EventsPage/EventsPage'
 import Services from './components/ServicesPage/ServicesPage'
 import Franchise from './components/Franchise/Franchise'
+import Contact from './components/ContactPage/ContactPage'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/events" element={<Events/>} />
         <Route path="/services" element={<Services/>}/>
         <Route path="/franchise" element={<Franchise/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </Router>
   )

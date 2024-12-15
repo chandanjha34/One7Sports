@@ -1,0 +1,13 @@
+.points {
+    position: relative;
+    padding-left: 20px; /* Space for the bullet */
+  }
+  
+.points::before {
+    content: '•'; /* Unicode for a bullet */
+    position: absolute;
+    left: 0;
+    top: -0.4rem; /* Position the bullet to the left of the text */
+    color: black; /* Bullet color (blue) */
+    font-size: 1.5rem; /* Adjust bullet size */
+  }
