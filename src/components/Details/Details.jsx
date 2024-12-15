@@ -5,7 +5,7 @@ import "./Details.css";
 function Details() {
   const stats = [
     { id: 1, value: 2000, suffix: "+", label: "Active Members" },
-    { id: 2, value: 5, label: "Tournaments Hosted Annually" },
+    { id: 2, value: 5, label: "Tournaments Hosted" },
     { id: 3, value: "8-12", label: "Sports Playground" },
     { id: 4, value: 98, suffix: "%", label: "Customer Satisfaction" },
   ];
@@ -57,17 +57,20 @@ function Details() {
   }, [inView]); // Trigger only when `inView` becomes true
 
   return (
-    <div ref={ref} className="stats-container flex justify-between flex-col md:flex-row items-center py-8">
-      {stats.map((stat, index) => (
-        <div key={stat.id} className="stat-item text-center mx-4 flex flex-col items-center">
-          <h2 className="text-blue-500 font-bold text-4xl stat-number">
-            {typeof stat.value === "number"
-              ? displayedValues[index] + (stat.suffix || "")
-              : stat.value}
-          </h2>
-          <p className="text-gray-600 text-3xl md:text-sm">{stat.label}</p>
-        </div>
-      ))}
+    <div className="flex flex-col w-[100vw]">
+      <div className="text-center text-3xl text-[#5FBC1E]">Some Milestones</div>
+      <div ref={ref} className="stats-container w-full flex justify-between flex-col md:flex-row items-center py-8">
+        {stats.map((stat, index) => (
+          <div key={stat.id} className="stat-item text-center mx-4 flex flex-col items-center">
+            <h2 className="text-blue-500 font-bold text-4xl stat-number">
+              {typeof stat.value === "number"
+                ? displayedValues[index] + (stat.suffix || "")
+                : stat.value}
+            </h2>
+            <p className="text-gray-600 text-3xl md:text-sm">{stat.label}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

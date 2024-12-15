@@ -1,0 +1,5 @@
+/* ContactPage.css */
+.leaflet-container {
+    z-index: 0; /* Prevent Leaflet map from overlapping other elements */
+  }
+  

@@ -1,8 +1,8 @@
 
 .custom-radial {
     background: radial-gradient(circle, #4f46e5, #7c3aed);
-    width: 70vw;
-    height: 60vh;
+    width: 90vw;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -45,4 +45,51 @@
 .spacing{
     gap: 12rem;
     align-items: center;
+}
+@media (max-width:639px) {
+    .images{
+        top: 40vh;
+    }
+    .custom-radial{
+        height: 40vh;
+        width: 90vw;
+    }
+    .spacing{
+        gap: 7rem;
+    }
+    .button-edit{
+        font-size: 30%;
+        width: 15rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: fit-content;
+    }
+    .QR{
+        transform: translateX(-4rem);
+        max-width: 15vw;
+    }
+    
+}
+@media (min-width:640px) and (max-width:1024px) {
+    .images{
+        top: 40vh;
+    }
+    .custom-radial{
+        height: 40vh;
+        width: 90vw;
+    }
+    .spacing{
+        gap: 7rem;
+    }
+    .button-edit{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: fit-content;
+    }
+    .QR{
+        transform: translateX(-4rem);
+        max-width: 15vw;
+    }
 }

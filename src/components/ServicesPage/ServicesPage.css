@@ -1,0 +1,8 @@
+.backG{
+    background-image: url(../../assets/ServicesPage_assets/backG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+}

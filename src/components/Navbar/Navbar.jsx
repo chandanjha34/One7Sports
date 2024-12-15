@@ -17,6 +17,7 @@ function Navbar(){
                 path:["/","about","services","events","franchise"],}
             ].map((item) =>
                 item.address.map((name, index) => (
+  
                 <li
                   key={index}
                   className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer"

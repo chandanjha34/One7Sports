@@ -1,0 +1,5 @@
+.slide {
+    background-size: cover;
+    background-position: center;
+    transition: all 0.7s ease-in-out;
+  }

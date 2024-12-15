@@ -1,0 +1,8 @@
+.EventsContainer{
+    background-image: url('../../assets/EventsPage_assets/frontPage.png');
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
