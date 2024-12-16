@@ -85,7 +85,7 @@ function EventSlider (){
                 {event.location}
               </div>
               <button className="px-6 py-2 border-2 border-white text-sm rounded-xl hover:bg-white hover:text-black transition-colors">
-                KNOW MORE
+                Download Our App
               </button>
             </div>
           </div>

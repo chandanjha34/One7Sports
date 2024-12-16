@@ -26,6 +26,7 @@
     padding-left: 5vw;
     padding-right: 5vw;
     position: relative;
+    z-index: 100;
     top: 6vh;
     color: white;
     border-radius: 1rem;
@@ -47,12 +48,15 @@
     display: flex;
     width: 50vw;
     flex-direction: column;
-    gap: 1/2vh;
+    gap: 0.5rem;
     position: relative;
+    z-index: 100;
     padding-left: 4vw;
+    padding-bottom: 12vw;
 }
 .main-section{
     position: relative;
+    z-index: 100;
     top: 5vw;
 }
 .button-edit{
@@ -66,8 +70,22 @@
     .main-content{
         display: flex;
         flex-direction: column;
-        gap: 5vh;
-        width: 80vw; 
+        gap: 0.5rem;
+        width: 90vw;
+        height: 80vh;
+        margin-bottom: 15vh;
+        margin-left: 1rem;
+    }
+   
+}
+@media (max-width:400px) {
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 40vh;
+        margin-bottom: 80vh;
+        margin-left: 1rem;
     }
    
 }

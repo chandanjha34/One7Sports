@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Navbar(){
   return (
     <div>
-        <header className="fixed top-0  z-50">
+        <header className="fixed top-0 z-500">
           <nav className="nav-bar bg-opacity-50 bg-black">
             <div className="flex items-center">
               <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
@@ -14,7 +14,7 @@ function Navbar(){
             <ul className="hidden md:flex content-items text-white ">
               {[
                 {address:["Home", "About", "Services", "Events","Franchise","Career"],
-                path:["","about","services","events","franchise","career"],}
+                path:["","about","services","events","franchise","careers"],}
             ].map((item) =>
                 item.address.map((name, index) => (
   

@@ -7,6 +7,8 @@ import Events from './components/EventsPage/EventsPage'
 import Services from './components/ServicesPage/ServicesPage'
 import Franchise from './components/Franchise/Franchise'
 import Contact from './components/ContactPage/ContactPage'
+import Career from './components/Careers/Careers'
+import JobDetails from './components/Careers/JobDetails/JobDetails'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/franchise" element={<Franchise/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path='/careers' element={<Career/>}/>
+        <Route path="/job/:id" element={<JobDetails />} />
       </Routes>
     </Router>
   )

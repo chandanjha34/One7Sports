@@ -31,7 +31,7 @@ function Home() {
 
           <div className=" mx-auto px-6 md:px-12 ">
             {/* Left Section: Hero Text */}
-            <div className="main-content h-full md:w-1/2 text-start  md:text-left md:space-y-4 ">
+            <div className="main-content h-full w-full md:w-1/2 text-start md:text-left md:space-y-4 ">
               <div className="text-4xl md:text-6xl font-semibold leading-tight text-white ">
                 Play your <span className="text-yellow-400">Game</span>, <br />
                 Find your <span className="text-yellow-400">Ground</span>!

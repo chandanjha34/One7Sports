@@ -6,7 +6,7 @@ import img2 from '../../assets/AboutPage_assets/img2.png'
 function Intro(){
   return (
     <div className='flex flex-col md:flex-row  justify-between items-center'>
-        <div className='section1'>
+        <div className='section1 z-1'>
             <div className='img1'><img src={img1} alt="" /></div>
             <div className='img2'><img src={img2} alt="" /></div>
         </div>

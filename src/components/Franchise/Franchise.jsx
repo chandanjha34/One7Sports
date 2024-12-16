@@ -18,7 +18,7 @@ import face5 from '../../assets/Home_assets/face5.png'
 function Franchise(){
   return (
     <div>
-        <div className="Home-Page h-screen bg-white max-w-[100vw] overflow-hidden">   
+        <div className="Home-Page h-screen bg-white max-w-[100vw] overflow-hidden relative z-100 ">   
           <div className="backGround-Pics flex justify-between">  
             <Navbar/>
             {/* Hero Section */}
@@ -69,13 +69,28 @@ function Franchise(){
             </section>
           </div>
         </div>
-        <Leagues/>
-        <Goals/>
-        <WhyFranchise/>
-        <Owner/>
-        <Reviews/>
-        <Gallery/>
-        <Footer/>
+
+        <div className='relative z-10'>
+          <Leagues/>
+        </div>
+        <div className='relative z-10'>
+          <Goals/>
+        </div>
+        <div className='relative z-10'>
+          <WhyFranchise/>
+        </div>
+        <div className='relative z-10'>
+          <Owner/>
+        </div>
+        <div className='relative z-10'>
+          <Reviews/>
+        </div>
+        <div className='relative z-10'>
+          <Gallery/>
+        </div>
+        <div className='relative z-10'>
+          <Footer/>
+        </div>
     </div>
   );
 }

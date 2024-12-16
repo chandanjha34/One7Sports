@@ -24,17 +24,39 @@ function AboutPage () {
           <div className='text-md md:text-lg w-[80vw] lg:w-[60vw] text-center'>One7 Sports is fueled by a profound passion for cricket and a dedicated commitment to enhancing the local cricketing experience. Under the leadership of Ajay Chhangani, our team comprises individuals with diverse backgrounds and expertise, all united by a shared objective: the improvement of cricket infrastructure within the local community.</div>
         </div>
       </div>
+      <div className='relative z-10'>
       <Intro/>
+      </div>
+      <div className='relative z-10'>
       <Description/>
+      </div>
+      <div className='relative z-10'>
       <Grounds/>
+      </div>
+      <div className='relative z-10'>
       <Sports/>
+      </div>
+      <div className='relative z-10'>
       <Technical/>
+      </div>
+      <div className='relative z-10'>
       <Offers/>
+      </div>
+      <div className='relative z-10'>
       <Impact/>
+      </div>
+      <div className='relative z-10'>
       <Why/>
+      </div>
+      <div className='relative z-10'>
       <Founder/>
+      </div>
+      <div className='relative z-10'>
       <Booking/>
+      </div>
+      <div className='relative z-10'>
       <Footer/>
+      </div>
     </div>
   );
 }

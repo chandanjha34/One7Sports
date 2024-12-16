@@ -20,11 +20,11 @@ function Downloads(){
                 <div className='text-xs md:text-lg'>Download our app now for seamless booking and easy access to our services. With just a few taps, you can book your ride, track your driver, and manage your bookings anytime, anywhere. Experience convenience at your fingertips</div>
                 <div className='flex spacing'>
                     <div className='flex flex-col  gap-4'>
-                        <div className='button-edit'>
+                        <div className='button-edits'>
                             <div><img src={apple} alt="" /></div>
                             <div><a href="https://play.google.com/store/apps/details?id=com.one7sports&hl=en&pli=1">Downlaod our app</a></div>
                         </div>
-                        <div className='button-edit'>
+                        <div className='button-edits'>
                             <div><img src={playStore} alt="" /></div>
                             <div><a href="https://play.google.com/store/apps/details?id=com.one7sports&hl=en&pli=1">Downlaod our app</a></div>
                         </div>

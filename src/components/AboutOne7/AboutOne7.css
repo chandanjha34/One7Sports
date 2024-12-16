@@ -1,6 +1,7 @@
 .section{
     background: radial-gradient(circle, #4f46e5, #7c3aed);
     position: relative;
+    z-index: 100;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;

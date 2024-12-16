@@ -12,10 +12,18 @@ function EventsPage(){
         <div className='EventsContainer px-[3vw]'>
             <Navbar/>
         </div>
-        <EventSlider/>
-        <Events/>
-        <Downloads/>
-        <Footer/>
+        <div className='relative z-100'>
+          <EventSlider/>
+        </div>
+        <div className='relative z-100'>
+          <Events/>
+        </div>
+        <div className='relative z-100'>
+          <Downloads/>
+        </div>
+        <div className='relative z-100'>
+          <Footer/>
+        </div>
     </div>
   );
 }

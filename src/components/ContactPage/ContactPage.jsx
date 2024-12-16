@@ -7,12 +7,16 @@ import Footer from '../Footer/Footer'
 function ContactPage(){
   return (
     <div>
-        <div className='w-screen h-screen'>
+        <div className='w-screen h-screen relative z-100 '>
             <Navbar/>
             <Map/>
         </div>
-        <Contact/>
-        <Footer/>
+        <div className='relative z-100'>
+          <Contact/>
+        </div>
+        <div className='relative z-100'>
+          <Footer/>
+        </div>
     </div>
   );
 }

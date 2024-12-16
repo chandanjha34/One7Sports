@@ -1,0 +1,18 @@
+.Main-Career{
+    width: 90vw;
+    height: auto;
+    position: relative;
+    padding-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 3rem;
+    z-index: 10;
+}
+.main-career{
+    position: relative;
+    z-index: 1000;
+}
