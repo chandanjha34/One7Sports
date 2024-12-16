@@ -1217,8 +1217,24 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.bg-\[url\(\'\$\{sports\.image\}\'\)\] {
+  background-image: url('${sports.image}');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .object-cover {

@@ -37,11 +37,7 @@
 }
 
 /* Front side styling */
-.card-front {
-    background-image: url(../../assets/AboutPage_assets/card.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .card:hover {
     transform: rotateY(180deg);
