@@ -8,15 +8,15 @@ import image4 from '../../assets/Footer_assets/img4.png'
 
 const Footer = () => {
     return (
-        <footer className=" bg-blue-500 wholes text-white  flex flex-col items-center">
+        <footer className="wholes text-white  flex flex-col items-center">
             <div className='foot'>
                 <div className='h-[40vh]'><img className='h-full' src={logo} alt="" /></div>
                 <div className='text-center text-white drop-shadow-[0_1px_1px_#000] border-1 border-black text-lg md:text-2xl'>"Why wait for luck to find the perfect ground?<br />With One7 Sports , booking your dream sports ground is just a tap away.<br />No hassle. No wait. Just play.<br />Download now and claim your game!"</div>
                 <div className='text-4xl'>Join our community </div>
                 <div className='text-lg text-center'>Subscribe for exclusive updates and be part of the action!</div>
                 <div className='flex gap-4'>
-                    <button className='border w-fit lg:w-[17vw] text-sm p-3'>Provide your Gmail</button>
-                    <button className='border w-fit lg:w-[8vw] text-sm  p-3'>SUBMIT</button>
+                    <input type="email" name="" id="" placeholder='Provide Your Email' className='border w-fit lg:w-[15vw] placeholder-[#000000] text-black bg-[#1C66EE1F] text-black text-md rounded-lg  p-3' />
+                    <button className='border w-fit lg:w-[8vw] bg-[#1C66EE1F] text-black text-md rounded-lg  p-3'>SUBMIT</button>
                 </div>
                 <div className='flex gap-3'>
                     <span><a href="#"><img src={image1} alt="" /></a></span>

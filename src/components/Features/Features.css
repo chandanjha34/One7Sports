@@ -56,3 +56,11 @@
 .boxes{
    gap: 5vw;
 }
+
+.custom-background{
+  background: radial-gradient(
+    143.25% 143.25% at 49.05% 37.21%,
+    #1C66EE 0%,
+    #103A88 100%
+  );
+}

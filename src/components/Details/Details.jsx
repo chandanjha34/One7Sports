@@ -4,9 +4,9 @@ import "./Details.css";
 
 function Details() {
   const stats = [
-    { id: 1, value: 2000, suffix: "+", label: "Active Members" },
-    { id: 2, value: 5, label: "Tournaments Hosted" },
-    { id: 3, value: "8-12", label: "Sports Playground" },
+    { id: 1, value: 4400, suffix: "+", label: "Active Members" },
+    { id: 2, value: 25,suffix:"+", label: "Tournaments Hosted" },
+    { id: 3, value: 14,suffix:"+", label: "Sports Playground" },
     { id: 4, value: 98, suffix: "%", label: "Customer Satisfaction" },
   ];
 

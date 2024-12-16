@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Navbar(){
   return (
     <div>
-        <header className="fixed top-0 z-500">
+        <header className="fixed top-0 z-50000">
           <nav className="nav-bar bg-opacity-50 bg-black">
             <div className="flex items-center">
               <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />

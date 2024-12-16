@@ -14,7 +14,7 @@ function Technical(){
             <div className='absolute left-[6rem] lg:left-[0rem]'><img src={mobile2} alt="" /></div>
         </div>
         <div className='side right-parts'>
-            <div className='text-[#103A88] text-xl'>Technology Solutions</div>
+            <div className='text-[#103A88] text-2xl font-bold'>Technology Solutions</div>
             <div className='benefits'>
                 <div><img src={image1} alt="" /></div>
                 <div className='font-semibold'>One7 App</div>

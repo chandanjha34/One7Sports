@@ -4,19 +4,23 @@ import Navbar from '../Navbar/Navbar'
 import Contact from '../ContactPage/Contact'
 import Footer from '../Footer/Footer'
 
-function ContactPage(){
+function ContactPage() {
   return (
     <div>
-        <div className='w-screen h-screen relative z-100 '>
-            <Navbar/>
-            <Map/>
+      <div className="relative w-screen h-screen">
+        <div className="relative w-[95vw] mx-auto z-[1000]">
+          <Navbar />
         </div>
-        <div className='relative z-100'>
-          <Contact/>
+        <div className="relative z-10">
+          <Map />
         </div>
-        <div className='relative z-100'>
-          <Footer/>
-        </div>
+      </div>
+      <div className="relative z-[100]">
+        <Contact />
+      </div>
+      <div className="relative z-[100]">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -38,9 +38,11 @@
 
 /* Front side styling */
 .card-front {
-    background-image: url(../../assets/AboutPage_assets/card.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: radial-gradient(
+        143.25% 143.25% at 49.05% 37.21%,
+        #1C66EE 0%,
+        #103A88 100%
+      );
     display: flex;
     flex-direction: column;
     gap: 2rem;

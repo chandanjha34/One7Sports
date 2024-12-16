@@ -1,6 +1,10 @@
 
 .custom-radial {
-    background: radial-gradient(circle, #4f46e5, #7c3aed);
+    background: radial-gradient(
+      143.25% 143.25% at 49.05% 37.21%,
+      #1C66EE 0%,
+      #103A88 100%
+    );
     width: 90vw;
     height: 70vh;
     display: flex;

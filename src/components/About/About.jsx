@@ -8,7 +8,7 @@ function About(){
             <img src={about} alt="" />
         </div>
         <div className='about-parts'>
-            <div className='text-[#5FBC1E] text-lg font-semibold'>
+            <div className='text-[#5FBC1E] text-2xl font-bold'>
             About us 
             </div>
             <div className='text-5xl'>

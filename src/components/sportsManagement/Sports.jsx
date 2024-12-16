@@ -14,14 +14,14 @@ function Sports(){
 
   return (
         <div className="containers">
-          <div className="text-center text-lg text-[#F59431] pt-[4rem]">Top Leagues</div>
+          <div className="text-center text-2xl font-bold text-[#F59431] pt-[4rem]">Top Leagues</div>
           <div className="flex flex-col items-center md:flex-row md:justify-around px-[1rem] pb-[3rem] gap-[3rem]">
             <div className="card-container flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-8">
               {sports.map((sports) => (
                 <div className="card" key={sports.id}>
                   <div className="card-front">
                     <img src={trophy} alt="Trophy Icon" className="icon" />
-                    <h3 className='text-xl'>{sports.league}</h3>
+                    <h3 className='text-xl text-white'>{sports.league}</h3>
                   </div>
                   <div className="card-back">
                     <p>{sports.description}</p>

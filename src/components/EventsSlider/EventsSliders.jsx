@@ -33,7 +33,7 @@ function EventSlider (){
       location: "Sports Arena, Bangalore",
       description:
         "The biggest soccer tournament of the year featuring teams from across the nation in a battle for glory.",
-      image: games3,
+      image: games1,
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ function EventSlider (){
       location: "Sports Arena, Bangalore",
       description:
         "The biggest soccer tournament of the year featuring teams from across the nation in a battle for glory.",
-      image: games4,
+      image: games2,
     },
   ];
 
@@ -70,21 +70,12 @@ function EventSlider (){
           >
             {/* Overlay */}
             <div className="absolute inset-0 bg-black/40"></div>
-            
-            <div className="inline-block px-3 py-2 mb-4 text-sm text-white font-medium bg-[#1C66EE] rounded-xl my-4 mx-4">
-                UPCOMING TOURNAMENTS
-            </div>
             {/* Content */}
             <div className="absolute bottom-12 left-8 text-white">
-              <p className="text-sm mb-1">{event.date}</p>
-              <h2 className="text-3xl font-bold mb-2">{event.title}</h2>
-              <p className="text-gray-300 mb-3">{event.description}</p>
-              <div className="flex gap-2 mb-4 text-sm">
-                <img className="w-5" src={location} alt="" />
-                <span className="font-medium">Location: </span>
-                {event.location}
-              </div>
-              <button className="px-6 py-2 border-2 border-white text-sm rounded-xl hover:bg-white hover:text-black transition-colors">
+              <p></p>
+              <p></p>
+              <p></p>
+              <button className="px-6 py-2 border-2 w-full mx-auto border-white text-sm rounded-xl hover:bg-white hover:text-black transition-colors">
                 Download Our App
               </button>
             </div>

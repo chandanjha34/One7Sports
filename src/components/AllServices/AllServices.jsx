@@ -34,9 +34,6 @@ function AllServices() {
               Effortlessly book your ideal cricket ground with our easy-to-use
               platform. Enjoy a seamless experience tailored to meet your sporting needs.
             </p>
-            <a href="#" className="font-medium underline">
-              Read More &rarr;
-            </a>
           </div>
 
           {/* Feature Box 2 */}
@@ -47,9 +44,6 @@ function AllServices() {
               Compete in professionally organized tournaments that highlight talent and
               build camaraderie on the pitch.
             </p>
-            <a href="#" className="text-blue-600 font-medium">
-              Read More &rarr;
-            </a>
           </div>
 
           {/* Feature Box 3 */}
@@ -58,9 +52,6 @@ function AllServices() {
             <p className="text-sm md:text-base mb-4">
               Cricket opportunities await across India for passionate players. Join the game and connect with cricketers nationwide.
             </p>
-            <a href="#" className="text-blue-600 font-medium">
-              Read More &rarr;
-            </a>
           </div>
 
           {/* Feature Box 4 */}
@@ -69,16 +60,15 @@ function AllServices() {
             <p className="text-sm md:text-base mb-4">
               Unlock personalized insights to elevate your cricket performance. Use analytics to improve your game.
             </p>
-            <a href="#" className="text-blue-600 font-medium">
-              Read More &rarr;
-            </a>
           </div>
 
           {/* Download Button */}
           <div className="">
-            <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors duration-300">
-              DOWNLOAD OUR APP
-            </button>
+            <a href="https://play.google.com/store/apps/details?id=com.one7sports&hl=en">
+              <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors duration-300">
+                DOWNLOAD OUR APP
+              </button>
+            </a>
           </div>
         </div>
       </div>

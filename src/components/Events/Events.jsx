@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Events.css"; 
-import image from '../../assets/Events/image.png'
+import image1 from '../../assets/Franchise_assets/image3.png'
+import image2 from '../../assets/Franchise_assets/image1.png'
+import image3 from '../../assets/Franchise_assets/image4.png'
 
 const eventsData = [
   {
@@ -8,33 +10,33 @@ const eventsData = [
     events: [
       {
         date: "5",
-        month: "April 2020",
-        title: "BigBoys League (BBL T20)",
+        month: "Will Notify Soon",
+        title: "One7 Sports Women’s Premier League",
         description:
-          "A four-day tournament featuring top local teams battling for the championship title in an exciting knockout format.",
-        location: "Central Sports Complex, Mumbai",
+          "A thrilling 21-day tournament exclusively for women, featuring 5 franchises of elite players competing for the championship title through intense league and knockout rounds.",
+        location: "One7 Sports Park, Gurugram",
         time: "10:00 AM - 2:00 PM",
-        image: image, // Replace with your image path
+        image: image1, // Replace with your image path
       },
       {
         date: "5",
-        month: "April 2020",
-        title: "The Great Indian Corporate Cricket League (TGICCL)",
+        month: "Will Notify Soon",
+        title: "One7 Big Boy Pro League",
         description:
-          "A thrilling tournament featuring skilled players competing for glory.",
-        location: "Central Stadium, Delhi",
+          "A premier league showcasing elite corporate teams competing in an exhilarating T20 format. Witness top talent battle it out for the championship",
+        location: "One7 Sports Park, Gurugram",
         time: "2:00 PM - 5:00 PM",
-        image: image,
+        image: image2,
       },
       {
         date: "5",
-        month: "April 2020",
-        title: "The Great Indian Corporate Cricket League (TGICCL)",
+        month: "Will Notify Soon",
+        title: "One7 Great Indian Corporate Cricket League",
         description:
-          "A thrilling tournament featuring skilled players competing for glory.",
-        location: "Central Stadium, Delhi",
+          "A prestigious league where 64 top corporate teams compete in a thrilling T20 format. An unmatched experience of sportsmanship and networking.",
+        location: "One7 Sports Park, Gurugram",
         time: "2:00 PM - 5:00 PM",
-        image: image,
+        image: image3,
       },
 
     ],
@@ -50,7 +52,7 @@ const eventsData = [
           "A competitive badminton event with top-notch players from across the city.",
         location: "Sports Hall, Bangalore",
         time: "12:00 PM - 4:00 PM",
-        image: image,
+        image: image1,
       },
       {
         date: "7",
@@ -60,7 +62,7 @@ const eventsData = [
           "A competitive badminton event with top-notch players from across the city.",
         location: "Sports Hall, Bangalore",
         time: "12:00 PM - 4:00 PM",
-        image: image,
+        image: image2,
       },
       {
         date: "7",
@@ -70,7 +72,7 @@ const eventsData = [
           "A competitive badminton event with top-notch players from across the city.",
         location: "Sports Hall, Bangalore",
         time: "12:00 PM - 4:00 PM",
-        image: image,
+        image: image3,
       },
     ],
   },
@@ -85,7 +87,7 @@ const eventsData = [
           "A prestigious tennis championship showcasing talent from across the nation.",
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
-        image: image,
+        image: image1,
       },
       {
         date: "10",
@@ -95,7 +97,7 @@ const eventsData = [
           "A prestigious tennis championship showcasing talent from across the nation.",
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
-        image: image,
+        image: image2,
       },
       {
         date: "10",
@@ -105,7 +107,7 @@ const eventsData = [
           "A prestigious tennis championship showcasing talent from across the nation.",
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
-        image: image,
+        image: image3,
       },
     ],
   },
@@ -120,7 +122,7 @@ const eventsData = [
           "A prestigious tennis championship showcasing talent from across the nation.",
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
-        image: image,
+        image: image1,
       },
       {
         date: "10",
@@ -130,7 +132,7 @@ const eventsData = [
           "A prestigious tennis championship showcasing talent from across the nation.",
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
-        image: image,
+        image: image2,
       },
       {
         date: "10",
@@ -140,7 +142,7 @@ const eventsData = [
           "A prestigious tennis championship showcasing talent from across the nation.",
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
-        image: image,
+        image: image3,
       },
     ],
   },
@@ -180,9 +182,8 @@ const EventsPage = () => {
             className="bg-white rounded-lg shadow-xl p-6 flex flex-col md:flex-row items-start items-center space-y-4 md:space-y-0 md:space-x-6"
           >
             {/* Date Box */}
-            <div className="bg-blue-100 text-center p-4 rounded-lg border border-black md:p-[3rem] ">
-              <p className="text-2xl font-bold text-blue-600">{event.date}</p>
-              <p className="text-sm text-blue-500">{event.month}</p>
+            <div className="bg-blue-100 text-center p-4 rounded-lg border border-black md:p-[2rem] ">
+              <p className="text-lg text-black">{event.month}</p>
               <p className="text-sm text-gray-400 mt-1">{event.time}</p>
             </div>
 
@@ -197,9 +198,11 @@ const EventsPage = () => {
                 {event.location}
                 
               </div>
-              <button className="w-fit bg-orange-500 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-orange-600 transition duration-200">
-              Know More
-              </button>
+              <a href="https://play.google.com/store/apps/details?id=com.one7sports&hl=en">
+                <button className="w-fit bg-orange-500 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-orange-600 transition duration-200">
+                  Download Our App
+                </button>
+              </a>
             </div>
 
             {/* Event Image */}

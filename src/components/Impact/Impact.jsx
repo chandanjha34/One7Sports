@@ -12,14 +12,14 @@ function Impact(){
                 <div className='text-6xl'>Our Impact In NCR Region</div>
             </div>
             <div className='text-area'>
-                <div className=' bullet-item'>One7 Sports has launched leagues that have quickly gained traction and are making waves in the NCR region.</div>
+                <div className=' bullet-item'>One7 Sports has launched leagues that have quickly gained attraction and are making waves in the NCR region.</div>
                 <div className=' bullet-item'>Our leagues are recognized for their innovative formats, competitive spirit, and high-quality experience, becoming the talk of the town among sports enthusiasts and professionals alike.</div>
             </div>
         </div>
         <div className='flex justify-around'>
-            <div className='w-[25vw] md:w-[20vw] image-curve'><img src={image1} alt="" /></div>
-            <div className='w-[25vw] md:w-[20vw] image-curve'><img src={image2} alt="" /></div>
-            <div className='w-[25vw] md:w-[20vw] image-curve'><img src={image3} alt="" /></div>
+            <div className='w-[25vw] md:w-[20vw] image-curve'><img className='rounded-lg' src={image1} alt="" /></div>
+            <div className='w-[25vw] md:w-[20vw] image-curve'><img className='rounded-lg' src={image2} alt="" /></div>
+            <div className='w-[25vw] md:w-[20vw] image-curve'><img className='rounded-lg' src={image3} alt="" /></div>
         </div>
     </div>
   );

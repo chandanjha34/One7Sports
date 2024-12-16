@@ -6,7 +6,7 @@ import image2 from '../../assets/AboutPage_assets/ground2.png'
 function AboutGrounds(){
   return (
     <div className='flex gap-[1rem] flex-col'>
-        <div className='text-center text-[#5FBC1E] text-sm'>
+        <div className='text-center text-[#5FBC1E] text-4xl font-bold'>
             ABOUT US
         </div>
         <div className='text-center text-2xl'>
@@ -17,7 +17,7 @@ function AboutGrounds(){
                 <img className='image6' src={image1} alt="" />
             </div>
             <div className='part'>
-                <div className='text-[#103A88] text-lg font-semibold py-[1rem]'>Sports Venues</div>
+                <div className='text-[#103A88] text-2xl font-bold py-[1rem]'>Sports Venues</div>
                 <div className='bullet-item'>One7 Sports is rapidly expanding its footprint across India, both organically and through strategic acquisitions.</div>
                 <div className='bullet-item'>Our goal is to become India’s largest network of premium sports venues, offering state-of-the-art facilities for cricket and other sports.</div>
                 <div className='bullet-item'>Every One7 venue is designed to provide high-quality infrastructure, safety, and accessibility, fostering a thriving community of sports enthusiasts.</div>
@@ -31,7 +31,7 @@ function AboutGrounds(){
                 <img className='image7' src={image2} alt="" />
             </div>
             <div className='part'>
-                <div className='font-semibold text-xl'>North India's Largest, Privately Owned Sports Park</div>
+                <div className='text-[#103A88] text-2xl font-bold'>North India's Largest, Privately Owned Sports Park</div>
                 <div className='text-lg py-[1rem]'>One7 Sports has successfully launched North India's largest, privately owned sports park, spread across 24 acres of land, strategically located in the heart of Gurgaon City. This premier facility offers:</div>
                 <div>
                     <div className='bullet-item'>3 Lush Green Cricket Grounds</div>

@@ -26,7 +26,7 @@ function Map(){
                 <span className="text-green-500 text-2xl mr-4">📞</span>
                 <div>
                   <h3 className="font-bold">Phone Number</h3>
-                  <p>7888-888-888</p>
+                  <p>+91 99100 02097</p>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ function Map(){
                 <span className="text-green-500 text-2xl mr-4">✉️</span>
                 <div>
                   <h3 className="font-bold">Gmail</h3>
-                  <p>info.sportone@gmail.com</p>
+                  <p>info@one7sports.com</p>
                 </div>
               </div>
             </div>

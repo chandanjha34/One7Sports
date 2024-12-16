@@ -4,8 +4,8 @@ import './WhyCareer.css'
 function WhyCareer (){
   return (
     <div className='flex flex-col py-[3rem]'>
-        <div className='text-center text-[#5FBC1E]'>Why join us</div>
-        <div className='flex justify-around flex-col md:flex-row items-center gap-[2rem] md:gap-[0rem] pt-[2rem]'>
+        <div className='text-center text-2xl font-bold text-[#5FBC1E]'>Why join us</div>
+        <div className='flex justify-around flex-col md:flex-row items-center w-[90vw] mx-auto gap-[2rem] md:gap-[0rem] pt-[2rem]'>
             <div className='obj'>
                 <div className='font-bold text-xl'>Growth Opportunities</div>
                 <div className='text-sm'>We provide continuous learning and development to help you achieve your career goals.</div>

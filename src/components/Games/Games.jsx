@@ -17,8 +17,8 @@ function Games () {
     const [reDirect5,changeImage5]=useState(downArrow);
 
   return (
-    <div className='whole-section overflow-hidden w-screen h-auto'>
-        <div className='text-[#5FBC1E]'>
+    <div className='whole-section overflow-hidden w-[95vw] mx-auto h-auto'>
+        <div className='text-[#5FBC1E] text-2xl font-bold'>
             Games Offered
         </div>
         <div className='text-section'>
@@ -29,7 +29,7 @@ function Games () {
             Our sports campus offers games and activities for all ages and skill levels. Whether you're improving skills, staying fit, or seeking friendly competition, we have something for everyone—team sports like soccer and basketball or individual challenges like tennis and track.
             </div>
         </div>
-        <div className='main-game flex flex-col overflow-y-visible h-auto md:flex-row gap-[2em]'>
+        <div className='main-game flex flex-col overflow-y-visible h-auto md:flex-row'>
             <div className='image1 bg-white rounded-lg drop-shadow-[0_10px_10px_rgba(0,0,0,0.75)] flex flex-col gap-[1rem] md:gap-0  transform transition-all duration-200 active:scale-[110%] active:shadow-none scale-animation md:hover:shadow-none' >
                     <div className='py-[1rem]'>
                         <img className='absolute w-[6vw] md:w-[3vw] bg-[#1C66EE] border-2 border-black rounded-full' src={reDirect1} alt="" />

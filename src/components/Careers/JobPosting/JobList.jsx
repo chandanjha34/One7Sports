@@ -16,7 +16,7 @@ function JobList (){
         {jobs.slice(0, visibleJobs).map((job, index) => (
           <div
             key={job.id}
-            className="p-4 w-[80vw] mx-auto shadow-xl hover:scale-[105%] transitiom-transfrom duration-300 rounded-lg bg-white flex justify-between items-center"
+            className="p-4 w-[95vw] my-[1rem] mx-auto shadow-xl hover:scale-[105%] transitiom-transfrom duration-300 rounded-lg bg-white flex justify-between items-center"
           >
             <div>
               <h3 className="text-xl font-semibold">{job.title}</h3>
@@ -35,7 +35,7 @@ function JobList (){
       {visibleJobs < jobs.length && (
         <button
           onClick={loadMoreJobs}
-          className="mt-6 bg-blue-500  text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+          className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
         >
           Load More
         </button>
