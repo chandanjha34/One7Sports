@@ -38,6 +38,11 @@
     font-size: small;
     cursor: pointer;
 }
+.content-items{
+    gap: 3vw;
+    font-size: small;
+    cursor: pointer;
+}
 .main-content{
     display: flex;
     width: 50vw;

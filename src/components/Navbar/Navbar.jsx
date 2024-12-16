@@ -11,10 +11,10 @@ function Navbar(){
             <div className="flex items-center">
               <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
             </div>
-            <ul className="hidden md:flex content-item text-white ">
+            <ul className="hidden md:flex content-items text-white ">
               {[
-                {address:["Home", "About", "Services", "Events","Franchise"],
-                path:["/","about","services","events","franchise"],}
+                {address:["Home", "About", "Services", "Events","Franchise","Career"],
+                path:["","about","services","events","franchise","career"],}
             ].map((item) =>
                 item.address.map((name, index) => (
   
@@ -22,7 +22,7 @@ function Navbar(){
                   key={index}
                   className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer"
                 >
-                  <Link to={item.path[index]}>{name}</Link>
+                  <Link to={`/${item.path[index]}`}>{name}</Link>
                 </li>
                 )
               ))}
