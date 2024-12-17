@@ -1,6 +1,7 @@
 import React from "react";
 import '../Home/Home.css'
 import Features from '../Features/Features'
+import Imageso from '../image/imageso'
 import Games from '../Games/Games'
 import Details from '../Details/Details'
 import About from '../About/About'
@@ -79,6 +80,7 @@ function Home() {
 
       {/* Features and Other Sections */}
       <Features />
+      <Imageso/>
       <Games />
       <Details />
       <About />

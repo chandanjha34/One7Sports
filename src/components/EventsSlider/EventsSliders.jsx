@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./EventsSlider.css"; // Import external CSS
 import games1 from "../../assets/EventsPage_assets/games1.png";
 import games2 from "../../assets/EventsPage_assets/games2.png";
-import games3 from "../../assets/EventsPage_assets/games3.png";
-import games4 from "../../assets/EventsPage_assets/games4.png";
-import location from '../../assets/EventsPage_assets/location.png'
 
 function EventSlider (){
   const events = [
