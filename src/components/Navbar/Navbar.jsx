@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <div>
-      <header className="fixed top-0 w-full z-50">
+      <header className="top-0 w-full z-50">
         <nav className="nav-bar bg-opacity-50 bg-black px-4 py-2 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">

@@ -6,8 +6,8 @@ import image4 from '../../assets/AboutPage_assets/feature4.png'
 function Why(){
   return (
     <div className='flex flex-col gap-[1rem] bg-[#E7EEF9]'>
-        <div className='text-center text-2xl font-bold'>Our features</div>
-        <div className='text-center text-2xl font-bold'>Why Choose One7 Sports?</div>
+        <div className='text-center text-[#F59431] text-4xl font-bold'>Our features</div>
+        <div className='text-center text-4xl font-bold'>Why Choose One7 Sports?</div>
         <div className='flex flex-col md:flex-row w-[90vw] mx-auto justify-around gap-[3rem] my-[3rem]'>
             <div className='flex flex-col items-center gap-[1rem]'>
                 <div><img className='image-circle bg-[#103A88] rounded-full p-[0.5rem]' src={image1} alt="" /></div>

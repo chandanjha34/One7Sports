@@ -19,7 +19,7 @@
 }
 
 /* Front & Back sides */
-.card-front,
+.card-fronts,
 .card-back {
     position: absolute;
     width: 100%;
@@ -37,7 +37,7 @@
 }
 
 /* Front side styling */
-.card-front {
+.card-fronts {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -49,7 +49,11 @@
 
 /* Back side styling */
 .card-back {
-    background: white;
-    color: black;
+    color: white;
     transform: rotateY(180deg);
+    background: radial-gradient(
+      143.25% 143.25% at 49.05% 37.21%,
+      #1C66EE 0%,
+      #103A88 100%
+    );
 }

@@ -53,7 +53,7 @@ function Sports() {
                 backgroundImage: `url(${sport.image})`,
               }}
             >
-              <div className="card-front bg-black bg-opacity-50 p-4 rounded-lg flex flex-col items-center">
+              <div className="card-fronts bg-black bg-opacity-50 p-4 rounded-lg flex flex-col items-center">
                 <p></p>
               </div>
               <div className="card-back bg-white p-4 rounded-lg text-black">
