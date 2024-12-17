@@ -1,82 +1,74 @@
 .whole-section {
-    max-width: 98vw;
     padding: 1rem;
-    gap: 1rem;
-}
-
-.text-section {
+    margin: auto;
+  }
+  
+  .text-section {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-}
-
-.first-text {
-    font-size: 4rem;
-    line-height: 4rem;
-    font-weight: 700;
-}
-
-.second-text {
-    font-size: large;
-}
-
-.main-game {
+    gap: 1rem;
+  }
+  
+  .first-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .second-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Main Game Layout */
+  .main-game {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    max-width: 100vw;
     justify-content: center;
-}
-
-.image1,
-.image2 {
-    height: 50vh; /* Consistent height for all images */
-    object-fit: cover; /* Maintain aspect ratio */
-}
-
-.image1 {
-    width: 25vw; /* Fixed width for the first image */
-    flex-shrink: 0; /* Prevent resizing */
-    height:fit-content;
-    padding-left: 1rem;
-    padding-right: 1rem; /* Keep consistent height */
-}
-
-.image2 {
-    flex-grow: 1; /* Let other images grow to fill remaining space */
-    width: calc((75vw - 25vw) / 4); /* Divide remaining width among other images */
-    max-width: calc((80vw - 25vw) / 4); /* Ensure consistent width */
-    margin-bottom: 1rem;
-}
-
-.game-text {
-    width: full;
-    height: full;
-    font-size:larger;
+    gap: 1rem;
+  }
+  
+  .image1 {
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image1 img,
+  .image2 img {
+    object-fit: cover;
+  }
+  
+  /* Game Cards */
+  .image2 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .game-text {
     position: relative;
-    top: -8rem;
-    left: -4rem;
-    transform: rotate(270deg);
-}
-
-@media (min-width: 768px) {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .first-text {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+    .second-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .main-game {
+      gap: 2rem;
+    }
     .image1 {
-        width: 25vw; /* Keep width fixed for image1 */
+      width: 25%;
     }
-
-    .image2 {
-        width: calc((95vw - 25vw) / 3); /* Adjust based on remaining space */
-        height: 50vh; /* Keep consistent height */
-    }
-
-    .game-text {
-        position: relative;
-        bottom: 18vh;
-        left: -9vh;
-        transform: rotate(270deg);
-    }
-
-    .scale-animation:hover {
-        scale: 105%;
-    }
-}
+  }
+  

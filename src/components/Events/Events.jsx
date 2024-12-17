@@ -5,6 +5,12 @@ import image2 from '../../assets/Franchise_assets/image1.png'
 import image3 from '../../assets/Franchise_assets/image4.png'
 import image4 from '../../assets/Franchise_assets/image2.png'
 import image5 from '../../assets/Franchise_assets/image5.png'
+import image1x from '../../assets/Events/image1x.png'
+import image2x from '../../assets/Events/image2x.png'
+import image3x from '../../assets/Events/image3x.png'
+import image4x from '../../assets/Events/image4x.png'
+import image5x from '../../assets/Events/image5x.png'
+
 
 const eventsData = [
   {
@@ -18,7 +24,8 @@ const eventsData = [
           "A thrilling 21-day tournament exclusively for women, featuring 5 franchises of elite players competing for the championship title through intense league and knockout rounds.",
         location: "One7 Sports Park, Gurugram",
         time: "10:00 AM - 2:00 PM",
-        image: image1, // Replace with your image path
+        image: image1,
+        alter: image1x // Replace with your image path
       },
       {
         date: "5",
@@ -29,6 +36,7 @@ const eventsData = [
         location: "One7 Sports Park, Gurugram",
         time: "2:00 PM - 5:00 PM",
         image: image2,
+        alter: image2x
       },
       {
         date: "5",
@@ -39,6 +47,7 @@ const eventsData = [
         location: "One7 Sports Park, Gurugram",
         time: "2:00 PM - 5:00 PM",
         image: image3,
+        alter:image3x
       },
       {
         date: "5",
@@ -49,6 +58,7 @@ const eventsData = [
         location: "One7 Sports Park, Gurugram",
         time: "2:00 PM - 5:00 PM",
         image: image4,
+        alter: image4x
       },
       {
         date: "5",
@@ -58,6 +68,7 @@ const eventsData = [
         location: "One7 Sports Park, Gurugram",
         time: "2:00 PM - 5:00 PM",
         image: image5,
+        alter:image5x
       },
 
     ],
@@ -74,6 +85,7 @@ const eventsData = [
         location: "Sports Hall, Bangalore",
         time: "12:00 PM - 4:00 PM",
         image: image1,
+        alter: image1x
       },
       {
         date: "7",
@@ -84,6 +96,7 @@ const eventsData = [
         location: "Sports Hall, Bangalore",
         time: "12:00 PM - 4:00 PM",
         image: image2,
+        alter:image2x
       },
       {
         date: "7",
@@ -94,6 +107,7 @@ const eventsData = [
         location: "Sports Hall, Bangalore",
         time: "12:00 PM - 4:00 PM",
         image: image3,
+        alter:image3x
       },
     ],
   },
@@ -109,6 +123,7 @@ const eventsData = [
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
         image: image1,
+        alter: image1x
       },
       {
         date: "10",
@@ -119,6 +134,7 @@ const eventsData = [
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
         image: image2,
+        alter:image2x
       },
       {
         date: "10",
@@ -129,6 +145,7 @@ const eventsData = [
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
         image: image3,
+        alter:image3x
       },
     ],
   },
@@ -144,6 +161,7 @@ const eventsData = [
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
         image: image1,
+        alter: image1x,
       },
       {
         date: "10",
@@ -154,6 +172,7 @@ const eventsData = [
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
         image: image2,
+        alter:image2x
       },
       {
         date: "10",
@@ -164,6 +183,7 @@ const eventsData = [
         location: "Tennis Club, Chennai",
         time: "9:00 AM - 1:00 PM",
         image: image3,
+        alter:image3x
       },
     ],
   },
@@ -203,9 +223,8 @@ const EventsPage = () => {
             className="bg-white rounded-lg shadow-xl p-6 flex flex-col md:flex-row items-start items-center space-y-4 md:space-y-0 md:space-x-6"
           >
             {/* Date Box */}
-            <div className="bg-blue-100 text-center p-4 rounded-lg border border-black md:p-[2rem] ">
-              <p className="text-lg text-black">{event.month}</p>
-              <p className="text-sm text-gray-400 mt-1">{event.time}</p>
+            <div className="bg-blue-100 w-[90vw] md:w-[40vw] text-center rounded-lg border border-black ">
+              <img className="m-0" src={event.alter} alt="" />
             </div>
 
             {/* Event Details */}

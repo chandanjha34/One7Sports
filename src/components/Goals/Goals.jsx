@@ -12,27 +12,27 @@ function Goals(){
         <div className='text-lg text-center lg:text-start text-[#5FBC1E]'>Games Offered</div>
         <div className='text-4xl text-center lg:text-start'>One7 Sports Leagues Goals</div>
         <div className='flex justify-around flex-col gap-[3rem] items-center lg:flex-row'>
-            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col gap-[1rem] mx-auto'>
+            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col items-center gap-[1rem] mx-auto'>
                 <div className='w-[30vw] mx-auto lg:w-[12vw] lg:h-[30vw]'><img src={goal1} alt="" /></div>
                 <div className='relative top-0 h-full text-center'>Enhancing Brand Image</div>
             </div>
-            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col lg:gap-[1rem]'>
+            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col items-center lg:gap-[1rem]'>
                 <div className='w-[30vw] mx-auto lg:w-[12vw] h-[30vw]'><img src={goal2} alt="" /></div>
                 <div className='relative top-0 h-full text-center'>Corporate social </div>
             </div>
-            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col gap-[1rem]'>
+            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col items-center gap-[1rem]'>
                 <div className='w-[30vw] mx-auto lg:w-[12vw] h-[30vw]'><img src={goal3} alt="" /></div>
                 <div className='relative top-0 h-full text-center'>Networking</div>
             </div>
-            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col gap-[1rem]'>
+            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col items-center gap-[1rem]'>
                 <div className='w-[30vw] mx-auto lg:w-[12vw] h-[30vw]'><img src={goal4} alt="" /></div>
-                <div className='relative top-0 h-full text-center'>On Ground Visibility and Direct connectivity with your targeted audience</div>
+                <div className='relative top-0 h-full text-center'>Direct visibility and audience connection on the ground</div>
             </div>
-            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col gap-[1rem]'>
+            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col items-center gap-[1rem]'>
                 <div className='w-[30vw] mx-auto lg:w-[12vw] h-[30vw]'><img src={goal5} alt="" /></div>
                 <div className='relative top-0 h-full text-center'>Professional and memorable experience</div>
             </div>
-            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col gap-[1rem]'>
+            <div className='w-full lg:w-[12vw] lg:h-[40vh] flex flex-col items-center gap-[1rem]'>
                 <div className='w-[30vw] mx-auto lg:w-[12vw] h-[30vw]'><img src={goal6} alt="" /></div>
                 <div className='relative top-0 h-full text-center'>Direct Sales Oppourtunities</div>
             </div>

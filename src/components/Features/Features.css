@@ -11,8 +11,7 @@
     right: 1rem;
     border: 2px solid gray;
     border-radius: 1rem;
-} 
-
+}
 @media (min-width:640px) {
   .boxes{
     grid-column: 2;
@@ -22,6 +21,7 @@
     padding-left: 2rem;
   }
 }
+
 @media (min-width:1080px) {
   .boxes{
     display: flex;
@@ -46,7 +46,7 @@
   font-size:xx-large;
 }
 .side-text{
-  font-size:medium;
+  font-size:larger;
   line-height: 120%;
 }
 .image{

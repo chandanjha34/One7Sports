@@ -11,11 +11,11 @@ function Intro(){
             <div className='img2'><img src={img2} alt="" /></div>
         </div>
         <div className='section2 text-section'>
-            <div className='text-5xl'>Empowering Excellence in Cricket</div>
-            <div className='text-lg text-[#5FBC1E]'>Our Mission Statement</div>
-            <div className='text-md'>To revolutionize local sports with a special focus on cricket by leveraging technology, fostering inclusive platforms, and creating unique sporting opportunities for athletes of all ages and backgrounds.</div>
-            <div className='text-lg text-[#5FBC1E]'>Our Vision Statement</div>
-            <div className='text-md'>To become India’s leading sports organization by building a network of premier sports venues, launching innovative leagues, and harnessing cutting-edge technology to empower athletes and elevate the sporting experience.</div>
+            <div className='text-5xl font-bold'>Empowering Excellence in Cricket</div>
+            <div className='text-3xl  text-[#5FBC1E]'>Our Mission Statement</div>
+            <div className='text-lg'>To revolutionize local sports with a special focus on cricket by leveraging technology, fostering inclusive platforms, and creating unique sporting opportunities for athletes of all ages and backgrounds.</div>
+            <div className='text-3xl text-[#5FBC1E]'>Our Vision Statement</div>
+            <div className='text-lg'>To become India’s leading sports organization by building a network of premier sports venues, launching innovative leagues, and harnessing cutting-edge technology to empower athletes and elevate the sporting experience.</div>
         </div>
     </div>
   );

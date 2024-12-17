@@ -7,8 +7,8 @@ import image5 from '../../assets/EventsPage_assets/image5.png'
 
 function EventsHub(){
   return (
-    <div className='w-screen h-auto flex flex-col gap-[1rem] p-2'>
-        <div className='text-2xl font-bold text-center'>One7Sports Park - Event Hub</div>
+    <div className='w-screen h-auto my-[10vh] flex flex-col gap-[1rem] p-2'>
+        <div className='text-4xl font-bold text-center'>One7Sports Park - Event Hub</div>
         <div className='text-xl text-center'>Welcome to One7Sports Park, North India’s largest privately owned sports park, spanning 24 acres in the heart of Gurugram. We host sports days, leagues, tournaments, and much more, providing an exceptional venue for corporates, athletes, and sports enthusiasts to enjoy a premier sports experience.</div>
         <div className='flex flex-col md:flex-row justify-around items-center'>
             <div className='w-[90vw] flex flex-col items-center md:w-[10vw]'>

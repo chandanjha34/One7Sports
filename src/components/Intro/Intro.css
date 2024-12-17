@@ -1,6 +1,11 @@
 .section1,.section2{
     width: 50vw;
 }
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .text-section{
     gap: 0.5rem;
 }

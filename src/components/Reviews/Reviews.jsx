@@ -12,7 +12,7 @@ const testimonials = [
 ];
   return (
     <div className="bg-white py-8 px-4 text-center">
-      <p className='text-[#F59431]'>Testimonials</p>
+      <p className='text-[#F59431] text-4xl'>Testimonials</p>
       <h2 className="text-2xl font-bold mb-4">What people say about us</h2>
       <div className="flex flex-col lg:flex-row justify-center gap-8 overflow-hidden">
         {testimonials.map((testimonial) => (

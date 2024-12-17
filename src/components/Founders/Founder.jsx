@@ -16,14 +16,6 @@ function Founder(){
             <div className='sidePart'><img src={image1} alt="" /></div>
         </div>
         <div className='basket'>
-            <div className='sidePart'><img src={image2} alt="" /></div>
-            <div className='sidePart  p-[2rem]'>
-                <div className='text-xl md:text-3xl'>Nikhil Dhingra</div>
-                <div className='text-md md:text-lg text-[#103A88]'>Co - founder and CEO</div>
-                <div className='hidden sm:block text-md '>Nikhil Dhingra, a seasoned cricketer with a rich background in school and inter-university cricket, serves as the driving force behind One7 Sports. <br /><br />As the CEO, Nikhil brings a unique blend of on-field experience and strategic leadership. His vision is to create a cricketing ecosystem that fosters talent development, community engagement, and overall growth within the local cricketing scene.Beyond his role, Nikhil is an active club cricketer in Gurgaon and NCR. <br /><br />His dedication to the sport drives him to lead and manage a local cricket club, fostering a sense of community.</div>
-            </div>
-        </div>
-        <div className='basket'>
             <div className='sidePart p-[2rem]'>
                 <div className='text-xl md:text-3xl'>Arpit</div>
                 <div className='text-md md:text-lg text-[#103A88]'>Co - founder and CEO</div>

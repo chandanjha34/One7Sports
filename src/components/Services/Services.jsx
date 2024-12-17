@@ -8,7 +8,7 @@ import img4 from '../../assets/Services_assets/img4.png'
 function Services(){
   return (
     <div className='containers '>
-        <div className='text-center  text-2xl font-bold text-[#F59431]'>Our services</div>
+        <div className='text-center  text-4xl font-bold text-[#F59431]'>Our services</div>
         <div className='text-center text-3xl md:text-4xl'>Comprehensive Services for <br /> Every Cricketer</div>
         <div className='flex flex-col md:flex-row justify-around px-[5rem] gap-[3rem]'>
             <div><img className='rounded-xl' src={img1} alt='' /></div>
