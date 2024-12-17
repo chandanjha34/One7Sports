@@ -10,8 +10,11 @@ function Technical(){
   return (
     <div className='flex justify-around flex-col lg:flex-row'>
         <div className='side'>
-            <div className='absolute left-[-4rem] lg:left-[7rem]'><img src={mobile1} alt="" /></div>
-            <div className='absolute left-[6rem] lg:left-[0rem]'><img src={mobile2} alt="" /></div>
+            <div>
+                <div className='absolute left-[-4rem] lg:left-[7rem]'><img src={mobile1} alt="" /></div>
+                <div className='absolute left-[6rem] lg:left-[0rem]'><img src={mobile2} alt="" /></div>
+            </div>
+            <div className='button-works'><a href="https://play.google.com/store/apps/details?id=com.one7sports&hl=en&pli=1"><button className='bg-[#F59431] p-3 rounded-lg'>Download Our App</button></a></div>
         </div>
         <div className='side right-parts'>
             <div className='text-[#103A88] text-2xl font-bold'>Technology Solutions</div>

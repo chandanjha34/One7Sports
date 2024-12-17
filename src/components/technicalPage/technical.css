@@ -23,9 +23,15 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.button-works{
+    position: relative;
+    height: 100vh;
+    top: 90vh;
+    left: 6rem;
+}
 @media (max-width:769px) {
     .side{
-        height:50vh;
+        height:60vh;
         margin-left: auto;
         margin-right: auto;
     }
@@ -43,5 +49,11 @@
         padding: 5px;
         justify-content: space-evenly;
     }
-    .
+    .button-works{
+        position: relative;
+        height: 100vh;
+        top: 50vh;
+        left: auto;
+        right: auto;
+    }
 }

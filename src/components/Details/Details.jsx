@@ -58,7 +58,7 @@ function Details() {
 
   return (
     <div className="flex flex-col w-[100vw]">
-      <div className="text-center text-3xl text-[#5FBC1E]">Some Milestones</div>
+      <div className="text-center text-2xl font-bold text-[#5FBC1E]">Why Athletes Chose us</div>
       <div ref={ref} className="stats-container w-full flex justify-between flex-col md:flex-row items-center py-8">
         {stats.map((stat, index) => (
           <div key={stat.id} className="stat-item text-center mx-4 flex flex-col items-center">

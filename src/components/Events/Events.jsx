@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./Events.css"; 
-import image1 from '../../assets/Franchise_assets/image3.png'
+import image1 from '../../assets/Franchise_assets/image3s.png'
 import image2 from '../../assets/Franchise_assets/image1.png'
 import image3 from '../../assets/Franchise_assets/image4.png'
+import image4 from '../../assets/Franchise_assets/image2.png'
+import image5 from '../../assets/Franchise_assets/image5.png'
 
 const eventsData = [
   {
@@ -37,6 +39,25 @@ const eventsData = [
         location: "One7 Sports Park, Gurugram",
         time: "2:00 PM - 5:00 PM",
         image: image3,
+      },
+      {
+        date: "5",
+        month: "Will Notify Soon",
+        title: "One7 Big Boys League",
+        description:
+          "An exhilarating T20 league with 16 franchises and 2000 corporate players selected through a draft process. Watch top teams battle it out over 60 matches.",
+        location: "One7 Sports Park, Gurugram",
+        time: "2:00 PM - 5:00 PM",
+        image: image4,
+      },
+      {
+        date: "5",
+        month: "Will Notify Soon",
+        title: "One7 North India Profesional cricket League",
+        description:"The One7 North India Professional Cricket League (NIPCL) is a thrilling 20-day event with 31 T20 matches, showcasing 200+ professional players from across North India.",
+        location: "One7 Sports Park, Gurugram",
+        time: "2:00 PM - 5:00 PM",
+        image: image5,
       },
 
     ],

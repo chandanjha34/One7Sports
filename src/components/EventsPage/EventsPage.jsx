@@ -27,9 +27,6 @@ function EventsPage(){
           <SportsPark/>
         </div>
         <div className='relative z-100'>
-          <Events/>
-        </div>
-        <div className='relative z-100'>
           <Downloads/>
         </div>
         <div className='relative z-10'>

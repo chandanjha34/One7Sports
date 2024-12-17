@@ -17,6 +17,7 @@ function About(){
             <div>
             <span className='text-[#5FBC1E]'>At One7Sports</span>, we are dedicated to supporting our clients throughout their cricketing journey with the utmost professionalism and integrity. Here's how we make that happen:
             </div>
+            <p className='text-[#5FBC1E] font-bold'>Our Commitment</p>
             <div className='bullet-list'>
                 <div className='bullet-item'>
                     <div className='text-[#5FBC1E]'>Professionalism at Every Step</div>

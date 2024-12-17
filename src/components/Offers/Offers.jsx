@@ -41,7 +41,7 @@ function Offers() {
   return (
     <div>
       <div className="text-center text-2xl font-bold text-[#F59431] pt-[4rem]">
-        Our Unique Offering
+        Sports Management
       </div>
       <div className="flex flex-col items-center md:flex-row md:justify-around px-[1rem] py-[3rem] gap-[3rem]">
         <div className="card-container flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-8">
