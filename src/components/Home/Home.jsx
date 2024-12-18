@@ -1,5 +1,5 @@
 import React from "react";
-import '../Home/Home.css'
+import './Home.css'
 import Features from '../Features/Features'
 import Imageso from '../image/imageso'
 import Games from '../Games/Games'
