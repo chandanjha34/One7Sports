@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
-function ContactForm(){
+function ContactForm() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -20,7 +20,16 @@ function ContactForm(){
 
   const sendMessage = (e) => {
     e.preventDefault();
-
+  
+    // Immediately reset form fields
+    setFormData({
+      firstName: "",
+      lastName: "",
+      phoneNumber: "",
+      subject: "",
+      message: "",
+    });
+  
     // EmailJS Configuration
     emailjs
       .send(
@@ -38,19 +47,13 @@ function ContactForm(){
       .then(
         () => {
           setIsSent(true);
-          setFormData({
-            firstName: "",
-            lastName: "",
-            phoneNumber: "",
-            subject: "",
-            message: "",
-          });
         },
         (error) => {
           console.error("Failed to send message:", error);
         }
       );
   };
+  
 
   return (
     <div className="flex flex-col items-center justify-center bg-white px-4 py-[2rem]">
@@ -58,48 +61,48 @@ function ContactForm(){
       <h1 className="text-3xl font-bold mb-6 text-gray-900">Write a Message</h1>
 
       <form
-        onSubmit={sendMessage}
+        onSubmit={sendMessage} // Ensure the form submits correctly
         className="w-[60vw] max-w-2xl flex flex-col gap-[2rem]"
       >
         <div className="flex flex-row gap-[3rem]">
-        <input
-          type="text"
-          name="firstName"
-          placeholder="First name"
-          value={formData.firstName}
-          onChange={handleChange}
-          className="border p-[0.5rem] bg-[#1C66EE1F] w-[25vw]"
-          required
-        />
-        <input
-          type="text"
-          name="lastName"
-          placeholder="Last name"
-          value={formData.lastName}
-          onChange={handleChange}
-          className="border  p-[0.5rem] w-[25vw] bg-[#1C66EE1F]"
-          required
-        />
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First name"
+            value={formData.firstName}
+            onChange={handleChange}
+            className="border p-[0.5rem] bg-[#1C66EE1F] w-[25vw]"
+            required
+          />
+          <input
+            type="text"
+            name="lastName"
+            placeholder="Last name"
+            value={formData.lastName}
+            onChange={handleChange}
+            className="border p-[0.5rem] w-[25vw] bg-[#1C66EE1F]"
+            required
+          />
         </div>
         <div className="flex flex-row gap-[3rem]">
-        <input
-          type="text"
-          name="phoneNumber"
-          placeholder="Phone Number"
-          value={formData.phoneNumber}
-          onChange={handleChange}
-          className="border p-[0.5rem] w-[25vw] bg-[#1C66EE1F]"
-          required
-        />
-        <input
-          type="text"
-          name="subject"
-          placeholder="Subject"
-          value={formData.subject}
-          onChange={handleChange}
-          className="border p-[0.5rem] w-[25vw] bg-[#1C66EE1F]"
-          required
-        />
+          <input
+            type="text"
+            name="phoneNumber"
+            placeholder="Phone Number"
+            value={formData.phoneNumber}
+            onChange={handleChange}
+            className="border p-[0.5rem] w-[25vw] bg-[#1C66EE1F]"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            value={formData.subject}
+            onChange={handleChange}
+            className="border p-[0.5rem] w-[25vw] bg-[#1C66EE1F]"
+            required
+          />
         </div>
         <textarea
           name="message"
@@ -111,8 +114,7 @@ function ContactForm(){
           required
         ></textarea>
         <button
-          type="submit"
-          onClick={()=>{sendMessage}}
+          type="submit" // This will trigger the form submission
           className="bg-[#F59431] hover:bg-orange-500 text-white font-bold py-2 px-6 rounded-md transition md:col-span-2"
         >
           SEND MESSAGE
@@ -124,6 +126,6 @@ function ContactForm(){
       )}
     </div>
   );
-};
+}
 
 export default ContactForm;

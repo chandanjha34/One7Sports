@@ -1,38 +1,47 @@
-import React from 'react'
-import '../Home/Home.css'
+import React, { useState } from 'react';
+import '../Home/Home.css';
 import logo from "../../assets/Home_assets/logo.png";
 import { Link } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa'; // Importing icons for the menu
 
-function Navbar(){
+function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div>
-        <header className="top-0 z-50000">
-          <nav className="nav-bar bg-opacity-50 bg-black">
-            <div className="flex items-center">
-              <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
-            </div>
-            <ul className="hidden md:flex content-items text-white ">
-              {[
-                {address:["Home", "About", "Services", "Events","Franchise","Career"],
-                path:["","about","services","events","franchise","careers"],}
+      <header className="fixed top-0 z-50000">
+        <nav className="nav-bar bg-opacity-50 bg-black">
+          <div className="flex items-center justify-between w-full">
+            <img src={logo} alt="One7 Sports Logo" className="logo inline-block w-10 mr-2" />
+            <button className="md:hidden text-white" onClick={toggleMenu}>
+              {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            </button>
+          </div>
+          <ul className={`md:flex content-items text-white ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
+            {[
+              {
+                address: ["Home", "About", "Services", "Events", "Franchise", "Career", "Contact Us"],
+                path: ["", "about", "services", "events", "franchise", "careers", "contact"],
+              }
             ].map((item) =>
-                item.address.map((name, index) => (
-  
+              item.address.map((name, index) => (
                 <li
                   key={index}
-                  className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer"
+                  className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer pl-4" // Added left padding
                 >
                   <Link to={`/${item.path[index]}`}>{name}</Link>
                 </li>
-                )
-              ))}
-            </ul>
-            <button className="button-fix bg-transparent border-2 border-white-400 hover:bg-red-100 hover:text-black px-4 py-2 rounded-md ">
-              <Link to='/contact'>Contact Us</Link>
-            </button>
-          </nav>
-        </header>
+              ))
+            )}
+          </ul>
+        </nav>
+      </header>
     </div>
   );
 }
+
 export default Navbar;
