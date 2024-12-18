@@ -26,7 +26,7 @@ function Home() {
         <div className="backGround-Pics flex justify-between relative">
           {/* Ensure Navbar has a proper z-index */}
           <div className="relative z-[1000]">
-            <Navbar />
+            <Navbar/>
           </div>
 
           {/* Main Content */}

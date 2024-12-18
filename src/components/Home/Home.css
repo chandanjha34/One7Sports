@@ -10,9 +10,7 @@
     bottom: 3vh;
     border-radius: 1rem;
 }
-.button-fix{
-    width: 10rem;
-}
+
 .nav-bar{
     display: flex;
     align-items: center;
@@ -26,6 +24,9 @@
     top: 6vh;
     color: white;
     border-radius: 1rem;
+}
+.button-fix{
+    width: 10rem;
 }
 .logo{
     width: 15vw;
@@ -41,6 +42,7 @@
     cursor: pointer;
 }
 .main-content{
+    
     display: flex;
     width: 50vw;
     flex-direction: column;
