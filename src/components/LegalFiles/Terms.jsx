@@ -1,9 +1,18 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar'
+import Reviews from '../Reviews/Reviews'
+import Downloads from '../Downloads/Downloads'
+import Gallery from '../Gallery/Gallery'
+import Footer from '../Footer/Footer'
 
 const Terms = () => {
   return (
-    <div className="p-6 bg-gray-50 text-gray-800">
-      <div className="max-w-4xl mx-auto">
+    <div>
+    <div className="p-6 bg-gray-50 text-gray-800 top-[15vh]">
+      <div>
+        <Navbar/>
+      </div>
+      <div className="max-w-5xl mt-[20vh] mx-auto">
         <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
         <p className="mb-2 text-gray-600 text-sm">(Effective and Last Updated as on: 14th August, 2024)</p>
 
@@ -136,6 +145,11 @@ const Terms = () => {
           </p>
         </footer>
       </div>
+    </div>
+      <Reviews />
+      <Downloads />
+      <Gallery />
+      <Footer />
     </div>
   );
 };
