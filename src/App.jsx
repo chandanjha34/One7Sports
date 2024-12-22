@@ -9,6 +9,7 @@ import Franchise from './components/Franchise/Franchise'
 import Contact from './components/ContactPage/ContactPage'
 import Career from './components/Careers/Careers'
 import JobDetails from './components/Careers/JobDetails/JobDetails'
+import Terms from './components/LegalFiles/Terms'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path='/careers' element={<Career/>}/>
         <Route path="/job/:id" element={<JobDetails />} />
+        <Route path="/privacy-policy" element={<Terms />} />
       </Routes>
     </Router>
   )

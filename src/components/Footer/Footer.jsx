@@ -72,6 +72,7 @@ const Footer = () => {
                     <Link to="/franchise">Franchise</Link>
                     <Link to="/events">Events</Link>
                     <Link to="/contact">Contact Us</Link>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                 </div>
                 <div className="border-t-[1px] w-[100vw] text-center">
                     © 2024 One7sports. All Rights Reserved.
