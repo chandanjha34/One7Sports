@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/Footer_assets/logo.png';
 import image1 from '../../assets/Footer_assets/img1.png';
 import image2 from '../../assets/Footer_assets/img2.png';
@@ -23,7 +24,7 @@ const Footer = () => {
         <footer className="wholes text-white flex flex-col items-center">
             <div className="foot">
                 <div className="h-[40vh]">
-                    <img className="h-full" src={logo} alt="Logo" />
+                    <img className="h-full" src={logo} alt="One7Sports Logo" />
                 </div>
                 <div className="text-center text-white drop-shadow-[0_1px_1px_#000] border-1 border-black text-lg md:text-2xl">
                     "Why wait for luck to find the perfect ground?<br />
@@ -53,24 +54,24 @@ const Footer = () => {
                 </form>
                 <div className="flex gap-3">
                     <span>
-                        <a href="#"><img src={image1} alt="" /></a>
+                        <a href="#"><img src={image1} alt="Social Media Icon 1" /></a>
                     </span>
                     <span>
-                        <a href="#"><img src={image2} alt="" /></a>
+                        <a href="#"><img src={image2} alt="Social Media Icon 2" /></a>
                     </span>
                     <span>
-                        <a href="#"><img src={image3} alt="" /></a>
+                        <a href="#"><img src={image3} alt="Social Media Icon 3" /></a>
                     </span>
                     <span>
-                        <a href="#"><img src={image4} alt="" /></a>
+                        <a href="#"><img src={image4} alt="Social Media Icon 4" /></a>
                     </span>
                 </div>
                 <div className="flex gap-4">
-                    <span>Services</span>
-                    <span>About</span>
-                    <span>Franchise</span>
-                    <span>Events</span>
-                    <span>Contact Us</span>
+                    <Link to="/services">Services</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/franchise">Franchise</Link>
+                    <Link to="/events">Events</Link>
+                    <Link to="/contact">Contact Us</Link>
                 </div>
                 <div className="border-t-[1px] w-[100vw] text-center">
                     © 2024 One7sports. All Rights Reserved.
