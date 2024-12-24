@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer'
 const Terms = () => {
   return (
     <div>
-    <div className="p-6 bg-gray-50 text-gray-800 top-[15vh]">
+    <div className="p-6 bg-gray-50 text-gray-800 top-[15vh] ">
       <div>
         <Navbar/>
       </div>
