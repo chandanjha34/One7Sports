@@ -5,11 +5,10 @@
       #1C66EE 0%,
       #103A88 100%
     );
-    position: relative;
+
     height: 100vh;
     z-index: 1000000;
-    width: 100vw;
-    overflow: hidden;
+    width: 100vw;;
 }
 .foot{
     height: 100vh;

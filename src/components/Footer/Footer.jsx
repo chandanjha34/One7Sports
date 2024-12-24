@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className="h-[40vh]">
                     <img className="h-full" src={logo} alt="One7Sports Logo" />
                 </div>
-                <div className="text-center text-white drop-shadow-[0_1px_1px_#000] border-1 border-black text-lg md:text-2xl">
+                <div className="text-center text-white drop-shadow-[0_1px_1px_#000] border-1 border-black text-md max-w-[90vw] md:text-2xl">
                     "Why wait for luck to find the perfect ground?<br />
                     With One7 Sports, booking your dream sports ground is just a tap away.<br />
                     No hassle. No wait. Just play.<br />
@@ -66,7 +66,7 @@ const Footer = () => {
                         <a href="#"><img src={image4} alt="Social Media Icon 4" /></a>
                     </span>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-2 md:gap-4 max-w-[90vw]">
                     <Link to="/services">Services</Link>
                     <Link to="/about">About</Link>
                     <Link to="/franchise">Franchise</Link>

@@ -20,7 +20,7 @@ import face5 from '../../assets/Home_assets/face5.png'
 
 function Home() {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* Navbar */}
       <div className="Home-Page h-screen bg-white max-w-[100vw] overflow-hidden">
         <div className="backGround-Pics flex justify-between relative">
@@ -89,7 +89,9 @@ function Home() {
       <Reviews />
       <Downloads />
       <Gallery />
-      <Footer />
+      <div className="w-[100vw] overflow-hidden">
+        <Footer />
+      </div>
     </div>
   );
 }

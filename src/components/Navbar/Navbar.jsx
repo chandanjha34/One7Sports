@@ -12,7 +12,7 @@ function Navbar() {
   };
 
   return (
-    <div className='w-[100vw]'>
+    <div>
       <header className="fixed top-0 z-50000">
         <nav className="nav-bar bg-opacity-50 bg-black">
           <div className="flex items-center justify-between w-full">
@@ -31,7 +31,7 @@ function Navbar() {
               item.address.map((name, index) => (
                 <li
                   key={index}
-                  className="text-xs md:text-sm font-medium hover:text-yellow-400 max-w-[90vw] hover:underline underline-offset-4 cursor-pointer pl-4" // Added left padding
+                  className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer pl-4" // Added left padding
                 >
                   <Link to={`/${item.path[index]}`}>{name}</Link>
                 </li>
