@@ -7,8 +7,8 @@ import largePic2 from '../../assets/Reviews_assets/lgPic2.png'
 
 function Reviews(){
 const testimonials = [
-  { id: 1, name: 'Runner Up Cricket T20', location: 'Deepak Gupta', text: 'Delight for cricket lovers. 3 well maintained grounds with all amenities like, Kimati balls, professional, live streaming, DRS, attractive match awards/rewards, match photography etc. The washrooms are clean, cafeteria is hygienic and a big parking spot. Staff is supportive and cordial. With pickleball courts coming in, it has become a great family sports spot.', image: largePic2 ,pic: smallPic1},
-  { id: 2, name: 'TT Nationals', location: 'Rahul Saxena', text: 'One7 Sports Park offers three top-notch grounds with floodlights for day/night games, a great café, excellent pitches, and a convenient location. The facility is continuously improving under visionary ownership, aiming to be the best in NCR. With a skilled management team and staff, it’s one of the premier cricket venues in the region, ideal for corporate matches and tournaments.', image: largePic1 ,pic: smallPic2 },
+  { id: 1, name: 'Deepak Gupta', location: 'Runner Up Cricket T20', text: 'Delight for cricket lovers. 3 well maintained grounds with all amenities like, Kimati balls, professional, live streaming, DRS, attractive match awards/rewards, match photography etc. The washrooms are clean, cafeteria is hygienic and a big parking spot. Staff is supportive and cordial. With pickleball courts coming in, it has become a great family sports spot.', image: largePic2 ,pic: smallPic1},
+  { id: 2, name: 'Amit Giri', location: 'Cricket Lover', text: 'One7 Sports Park offers three top-notch grounds with floodlights for day/night games, a great café, excellent pitches, and a convenient location. The facility is continuously improving under visionary ownership, aiming to be the best in NCR. With a skilled management team and staff, it’s one of the premier cricket venues in the region, ideal for corporate matches and tournaments.', image: largePic1 ,pic: smallPic2 },
 ];
   return (
     <div className="bg-white py-8 px-4 text-center">

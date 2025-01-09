@@ -80,7 +80,7 @@ function Home() {
 
       {/* Features and Other Sections */}
       <Features />
-      <Imageso/>
+      {/* <Imageso/> */}
       <Games />
       <Details />
       <About />

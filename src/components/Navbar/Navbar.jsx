@@ -21,17 +21,17 @@ function Navbar() {
               {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </button>
           </div>
-          <ul className={`md:flex content-items text-white ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
+          <ul className={`${isMenuOpen ? 'block' : 'hidden'} md:flex justify-between w-full text-white`}>
             {[
               {
-                address: ["Home", "About", "Services", "Events", "Franchise", "Career", "Contact Us"],
+                address: ["Home", "About Us", "Services", "Events", "Franchise", "Career", "Contact Us"],
                 path: ["", "about", "services", "events", "franchise", "careers", "contact"],
               }
             ].map((item) =>
               item.address.map((name, index) => (
                 <li
                   key={index}
-                  className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer pl-4" // Added left padding
+                  className="text-sm font-medium hover:text-yellow-400 hover:underline underline-offset-4 cursor-pointer w-full"
                 >
                   <Link to={`/${item.path[index]}`}>{name}</Link>
                 </li>
